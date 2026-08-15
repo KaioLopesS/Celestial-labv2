@@ -265,13 +265,15 @@ export const IdealGasSim: React.FC = () => {
         ctx.fillText('◀▶', containerRight, CONTAINER_TOP - 8);
       }
 
-      // Update and draw particles
+      // Update and draw particles (scaled proportionally to container width for constant visual speed in Fullscreen)
       const particles = particlesRef.current;
+      const speedScale = Math.max(0.5, containerWidth / 450);
+
       if (isRunning) {
         for (let i = 0; i < particles.length; i++) {
           const p = particles[i];
-          p.x += p.vx;
-          p.y += p.vy;
+          p.x += p.vx * speedScale;
+          p.y += p.vy * speedScale;
 
           if (p.x - p.radius < CONTAINER_LEFT) { p.x = CONTAINER_LEFT + p.radius; p.vx = Math.abs(p.vx); }
           if (p.x + p.radius > containerRight) { p.x = containerRight - p.radius; p.vx = -Math.abs(p.vx); }
@@ -323,7 +325,7 @@ export const IdealGasSim: React.FC = () => {
         ctx.shadowColor = color; ctx.shadowBlur = 8;
         ctx.strokeStyle = `rgba(${r}, ${g}, ${b}, 0.15)`;
         ctx.lineWidth = 1;
-        ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(p.x - p.vx * 3, p.y - p.vy * 3); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(p.x - p.vx * speedScale * 3, p.y - p.vy * speedScale * 3); ctx.stroke();
 
         const pGrad = ctx.createRadialGradient(p.x - 1, p.y - 1, 0, p.x, p.y, p.radius);
         pGrad.addColorStop(0, `rgba(${Math.min(r + 80, 255)}, ${Math.min(g + 80, 255)}, ${Math.min(b + 80, 255)}, 1)`);
