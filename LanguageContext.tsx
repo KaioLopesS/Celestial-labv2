@@ -24,7 +24,7 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.menu': 'Menu Principal',
     'nav.contact': 'Contato',
     'footer': '© 2025 Celestial Lab - Kaio Lopes. Todos os direitos reservados.',
-    
+
     // Home
     'home.subtitle': 'Essa é a primeira versão do Celestial Lab. Sinta-se a vontade em compartilhar sua opinião.',
     'home.start': 'Iniciar',
@@ -33,7 +33,7 @@ const translations: Record<Language, Record<string, string>> = {
     'sim.gas.title': 'Gases Ideais',
     'sim.gas.desc': 'Simule o comportamento de partículas de um gás ideal e visualize a Lei PV=nRT em ação.',
     'sim.lever.title': 'Equilíbrio de Alavanca',
-    'sim.lever.desc': 'Adicione pesos e visualize torques para entender o equilíbrio de uma alavanca.',
+    'sim.lever.desc': 'Adicione pesos e aprenda como funciona o equilíbrio de uma alavanca.',
     'sim.vector.title': 'Campos Vetoriais',
     'sim.vector.desc': 'Visualize campos vetoriais 2D.',
     'sim.faraday.title': 'Lei de Faraday',
@@ -45,7 +45,7 @@ const translations: Record<Language, Record<string, string>> = {
     'em.text_e': 'elétricos',
     'em.text_b': 'magnéticos',
     'em.text_end': 'oscilantes e perpendiculares entre si.',
-    'em.controls':'INFORMAÇÃO',
+    'em.controls': 'INFORMAÇÃO',
     'em.drag': 'Arraste para girar',
     'em.efield': 'Campo Elétrico (E)',
     'em.bfield': 'Campo Magnético (B)',
@@ -56,20 +56,28 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Ideal Gas Simulator
     'gas.title': 'Gases Ideais',
-    'gas.hint': 'Ajuste os parâmetros e observe o comportamento das partículas',
-    'gas.intro': 'A Lei dos Gases Ideais descreve o comportamento de um gás hipotético em que as partículas não interagem entre si e ocupam volume desprezível. A equação PV = nRT relaciona pressão, volume, quantidade de matéria e temperatura.',
     'gas.formula_desc': 'P = Pressão, V = Volume, n = quantidade de matéria, R = constante, T = Temperatura',
     'gas.temperature': 'Temperatura',
     'gas.volume': 'Volume',
     'gas.particles': 'Partículas',
     'gas.pressure': 'Pressão',
-    'gas.readings': 'Leituras em Tempo Real',
-    'gas.slow': 'Velocidade baixa',
-    'gas.medium': 'Velocidade média',
-    'gas.fast': 'Velocidade alta',
-    'gas.info_title': 'Conceito Fundamental',
-    'gas.info_text': 'Ao aumentar a temperatura, as partículas se movem mais rápido, colidindo com mais frequência e intensidade nas paredes do recipiente, aumentando a pressão. Ao reduzir o volume (comprimir), as partículas ficam mais confinadas, também aumentando a pressão.',
     'gas.controls_label': 'Parâmetros',
+    // Tabs
+    'gas.tab_lab': 'Laboratório',
+    'gas.tab_transformations': 'Transformações',
+    // Transformations
+    'gas.trans_isothermal': 'Isotérmica',
+    'gas.trans_isobaric': 'Isobárica',
+    'gas.trans_isochoric': 'Isocórica',
+    'gas.trans_isothermal_desc': 'Temperatura constante',
+    'gas.trans_isobaric_desc': 'Pressão constante',
+    'gas.trans_isochoric_desc': 'Volume constante',
+    'gas.trans_initial': 'Estado Inicial',
+    'gas.trans_final': 'Estado Final',
+    'gas.trans_run': 'Executar Transformação',
+    'gas.trans_reset': 'Resetar',
+    'gas.trans_graph': 'Gráfico',
+    'gas.trans_const': 'Constante',
 
     // Lever Equilibrium Simulator
     'lever.title': 'Equilíbrio de Alavanca',
@@ -166,7 +174,7 @@ const translations: Record<Language, Record<string, string>> = {
   }
 };
 
-export const LanguageProvider: React.FC<{children: ReactNode}> = ({ children }) => {
+export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [language, setLanguage] = useState<Language>('pt-BR');
   const t = (key: string) => translations[language][key] || key;
   return (
