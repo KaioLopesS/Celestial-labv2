@@ -15,7 +15,7 @@ type TransformationType = 'isothermal' | 'isobaric' | 'isochoric';
 
 const R_CONSTANT = 8.314; // J/(mol·K)
 
-// Convert internal volume (20-100) to liters (2-10)
+// Converte volume interno (20-100) para litros (2-10)
 const volumeToLiters = (v: number): number => 2 + (v - 20) * (8 / 80);
 const litersToInternal = (L: number): number => 20 + (L - 2) * (80 / 8);
 
@@ -27,24 +27,24 @@ export const IdealGasSim: React.FC = () => {
   const animFrameRef = useRef<number>(0);
 
   const [temperature, setTemperature] = useState(300);
-  const [volume, setVolume] = useState(70);
-  const [numParticles, setNumParticles] = useState(40);
+  const [volume, setVolume] = useState(50);
+  const [numParticles, setNumParticles] = useState(20);
   const [isRunning, setIsRunning] = useState(true);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [showFsControls, setShowFsControls] = useState(true);
   const [showLabels, setShowLabels] = useState(true);
   const [pressure, setPressure] = useState(0);
 
-  // Tabs
+  // Abas
   const [activeTab, setActiveTab] = useState<TabType>('lab');
 
-  // Transformations
+  // Transformações
   const [transType, setTransType] = useState<TransformationType>('isothermal');
   const [graphPath, setGraphPath] = useState<{ x: number; y: number }[]>([]);
   const transRefState = useRef({ P: 0, V: 0, T: 0 });
   const isAutoRef = useRef(false);
 
-  // Refs for current values (used in event listeners without re-creating them)
+  // Refs para valores atuais (usadas em event listeners sem recriá-las)
   const activeTabRef = useRef(activeTab);
   activeTabRef.current = activeTab;
   const transTypeRef = useRef(transType);
@@ -85,7 +85,7 @@ export const IdealGasSim: React.FC = () => {
     return particles;
   }, [volume, temperature, getSpeedFactor]);
 
-  // Fullscreen
+  // Tela cheia
   useEffect(() => {
     const handleFsChange = () => setIsFullscreen(!!document.fullscreenElement);
     document.addEventListener('fullscreenchange', handleFsChange);
@@ -97,7 +97,7 @@ export const IdealGasSim: React.FC = () => {
     else document.exitFullscreen();
   };
 
-  // Update particle speeds when temperature changes
+  // Atualiza a velocidade das partículas quando a temperatura muda
   useEffect(() => {
     const speed = getSpeedFactor(temperature);
     particlesRef.current.forEach(p => {
@@ -114,7 +114,7 @@ export const IdealGasSim: React.FC = () => {
     });
   }, [temperature, getSpeedFactor]);
 
-  // Adjust particle count
+  // Ajusta a quantidade de partículas
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -131,7 +131,7 @@ export const IdealGasSim: React.FC = () => {
   }, [numParticles, initParticles]);
 
   // =============================================
-  // MAIN ANIMATION LOOP — particle simulation
+  // LOOP PRINCIPAL DE ANIMAÇÃO — simulação de partículas
   // =============================================
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -177,7 +177,7 @@ export const IdealGasSim: React.FC = () => {
       const containerWidth = containerRight - CONTAINER_LEFT;
       const containerHeight = containerBottom - CONTAINER_TOP;
 
-      // Ensure particles are initialized and within container bounds
+      // Garante que as partículas estão inicializadas e dentro dos limites do recipiente
       if (particlesRef.current.length === 0) {
         particlesRef.current = initParticles(numParticles, w, h);
       } else {
@@ -207,14 +207,14 @@ export const IdealGasSim: React.FC = () => {
       const wallB = Math.floor(255 - pressureNorm * 200);
       const wallColor = `rgb(${wallR}, ${wallG}, ${wallB})`;
 
-      // Container bg
+      // Fundo do recipiente
       const bgGrad = ctx.createLinearGradient(CONTAINER_LEFT, CONTAINER_TOP, CONTAINER_LEFT, containerBottom);
       bgGrad.addColorStop(0, 'rgba(10, 15, 30, 0.9)');
       bgGrad.addColorStop(1, 'rgba(5, 10, 20, 0.95)');
       ctx.fillStyle = bgGrad;
       ctx.fillRect(CONTAINER_LEFT, CONTAINER_TOP, containerWidth, containerHeight);
 
-      // Grid
+      // Grade
       ctx.strokeStyle = 'rgba(255,255,255,0.03)';
       ctx.lineWidth = 1;
       for (let gx = CONTAINER_LEFT; gx <= containerRight; gx += 30) {
@@ -224,7 +224,7 @@ export const IdealGasSim: React.FC = () => {
         ctx.beginPath(); ctx.moveTo(CONTAINER_LEFT, gy); ctx.lineTo(containerRight, gy); ctx.stroke();
       }
 
-      // Walls
+      // Paredes
       ctx.strokeStyle = wallColor;
       ctx.lineWidth = 3;
       ctx.shadowColor = wallColor;
@@ -237,7 +237,7 @@ export const IdealGasSim: React.FC = () => {
       ctx.stroke();
       ctx.shadowBlur = 0;
 
-      // Piston
+      // Pistão
       const pistonGrad = ctx.createLinearGradient(containerRight - 10, 0, containerRight + 10, 0);
       pistonGrad.addColorStop(0, 'rgba(100,120,150,0.6)');
       pistonGrad.addColorStop(0.5, 'rgba(180,200,220,0.9)');
@@ -251,7 +251,7 @@ export const IdealGasSim: React.FC = () => {
         ctx.beginPath(); ctx.moveTo(containerRight - 3, py); ctx.lineTo(containerRight + 3, py); ctx.stroke();
       }
 
-      // Piston lock indicator for isochoric/isobaric
+      // Indicador de travamento do pistão para isocórica/isobárica
       if (activeTabRef.current === 'transformations' &&
         (transTypeRef.current === 'isochoric' || transTypeRef.current === 'isobaric')) {
         ctx.fillStyle = 'rgba(255,100,100,0.8)';
@@ -265,7 +265,7 @@ export const IdealGasSim: React.FC = () => {
         ctx.fillText('◀▶', containerRight, CONTAINER_TOP - 8);
       }
 
-      // Update and draw particles (scaled proportionally to container width for constant visual speed in Fullscreen)
+      // Atualiza e desenha partículas (escaladas proporcionalmente à largura do recipiente para velocidade visual constante em Tela Cheia)
       const particles = particlesRef.current;
       const speedScale = Math.max(0.5, containerWidth / 450);
 
@@ -305,21 +305,9 @@ export const IdealGasSim: React.FC = () => {
         }
       }
 
-      // Draw particles
+      // Desenhar partículas
       for (const p of particles) {
-        const speed = Math.sqrt(p.vx * p.vx + p.vy * p.vy);
-        const speedNorm = Math.min(speed / 8, 1);
-        let r, g, b;
-        if (speedNorm < 0.33) {
-          const t = speedNorm / 0.33;
-          r = 50; g = Math.floor(150 + t * 105); b = 255;
-        } else if (speedNorm < 0.66) {
-          const t = (speedNorm - 0.33) / 0.33;
-          r = Math.floor(50 + t * 205); g = 255; b = Math.floor(255 - t * 200);
-        } else {
-          const t = (speedNorm - 0.66) / 0.34;
-          r = 255; g = Math.floor(255 - t * 200); b = Math.floor(55 - t * 55);
-        }
+        const r = 0, g = 240, b = 255;
         const color = `rgb(${r}, ${g}, ${b})`;
 
         ctx.shadowColor = color; ctx.shadowBlur = 8;
@@ -335,7 +323,7 @@ export const IdealGasSim: React.FC = () => {
         ctx.shadowBlur = 0;
       }
 
-      // Bottom labels inside particle canvas
+      // Rótulos inferiores dentro do canvas de partículas
       const vL = volumeToLiters(volume);
       ctx.fillStyle = 'rgba(255,255,255,0.5)';
       ctx.font = '10px monospace';
@@ -362,7 +350,7 @@ export const IdealGasSim: React.FC = () => {
   }, [volume, numParticles, isRunning, temperature, initParticles]);
 
   // =============================================
-  // PISTON DRAG
+  // ARRASTE DO PISTÃO
   // =============================================
   const isDraggingPistonRef = useRef(false);
 
@@ -422,40 +410,40 @@ export const IdealGasSim: React.FC = () => {
 
   const handleReset = () => {
     setTemperature(300);
-    setVolume(70);
-    setNumParticles(40);
+    setVolume(50);
+    setNumParticles(20);
     setIsRunning(true);
     const canvas = canvasRef.current;
-    if (canvas) particlesRef.current = initParticles(40, canvas.clientWidth, canvas.clientHeight);
+    if (canvas) particlesRef.current = initParticles(20, canvas.clientWidth, canvas.clientHeight);
   };
 
   const pressureKPa = pressure / 1000;
   const pressureNorm = Math.min(pressure / 500000, 1);
 
   // =============================================
-  // TRANSFORMATION LOGIC
+  // LÓGICA DE TRANSFORMAÇÃO
   // =============================================
 
-  // Compute exact physical point (x, y) for current transformation
+  // Calcula o ponto físico exato (x, y) para a transformação atual
   const getGraphPoint = useCallback((P_pa: number, V_L: number, T_K: number) => {
     const n = numParticles / 100;
     const ref = transRefState.current;
 
     switch (transType) {
       case 'isothermal': {
-        // T constant = T_ref. P = nRT_ref / V
+        // T constante = T_ref. P = nRT_ref / V
         const T_ref = ref.T || T_K;
         const P_calc = (n * R_CONSTANT * T_ref) / (V_L / 1000);
         return { x: V_L, y: P_calc / 1000 }; // P × V
       }
       case 'isobaric': {
-        // P constant = P_ref. V = nRT / P_ref
+        // P constante = P_ref. V = nRT / P_ref
         const P_ref = ref.P || P_pa;
         const V_calc = (n * R_CONSTANT * T_K * 1000) / P_ref;
         return { x: T_K, y: V_calc }; // V × T
       }
       case 'isochoric': {
-        // V constant = V_ref. P = nRT / V_ref
+        // V constante = V_ref. P = nRT / V_ref
         const V_ref_L = ref.V || V_L;
         const P_calc = (n * R_CONSTANT * T_K) / (V_ref_L / 1000);
         return { x: T_K, y: P_calc / 1000 }; // P × T
@@ -471,22 +459,22 @@ export const IdealGasSim: React.FC = () => {
     }
   }, [transType]);
 
-  // Ref to track if student has started interacting with transformation controls
+  // Ref para rastrear se o estudante começou a interagir com os controles de transformação
   const hasStartedGraphRef = useRef(false);
 
-  // Capture reference state when entering transformations or switching type (start zeroed/empty)
+  // Captura o estado de referência ao entrar em transformações ou alternar tipo (inicia zerado/vazio)
   useEffect(() => {
     if (activeTab === 'transformations') {
       hasStartedGraphRef.current = false;
-      setNumParticles(40); // Fixed particle count (closed system)
+      setNumParticles(20); // Quantidade fixa de partículas (sistema fechado)
       let initT = temperature;
       let initV = volume;
 
       if (transType === 'isothermal') {
-        initV = 20; // 2.0 L (min)
+        initV = 20; // 2.0 L (mín)
         setVolume(20);
       } else if (transType === 'isobaric' || transType === 'isochoric') {
-        initT = 100; // 100 K (min)
+        initT = 100; // 100 K (mín)
         setTemperature(100);
       }
 
@@ -500,7 +488,7 @@ export const IdealGasSim: React.FC = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeTab, transType]);
 
-  // Auto-adjust for ISOBARIC: T changes → adjust V to keep P constant
+  // Ajuste automático para ISOBÁRICA: T muda → ajusta V para manter P constante
   useEffect(() => {
     if (activeTab !== 'transformations' || transType !== 'isobaric' || isAutoRef.current) return;
     const P_ref = transRefState.current.P;
@@ -517,7 +505,7 @@ export const IdealGasSim: React.FC = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [temperature, activeTab, transType]);
 
-  // Sample discrete state points as variables change (only after student starts interacting)
+  // Amostra pontos discretos de estado conforme as variáveis mudam (apenas após o estudante começar a interagir)
   useEffect(() => {
     if (activeTab !== 'transformations' || !hasStartedGraphRef.current) return;
     const n = numParticles / 100;
@@ -547,7 +535,7 @@ export const IdealGasSim: React.FC = () => {
   }, [temperature, volume, activeTab, getGraphPoint]);
 
   // =============================================
-  // GRAPH DRAWING (smooth real-time rendering)
+  // DESENHO DO GRÁFICO (renderização suave em tempo real)
   // =============================================
   useEffect(() => {
     if (activeTab !== 'transformations') return;
@@ -580,7 +568,7 @@ export const IdealGasSim: React.FC = () => {
       const gw = w - margin.left - margin.right;
       const gh = h - margin.top - margin.bottom;
 
-      // Background
+      // Fundo
       ctx.fillStyle = 'rgba(5, 8, 18, 0.95)';
       ctx.fillRect(0, 0, w, h);
       ctx.strokeStyle = 'rgba(255,255,255,0.1)';
@@ -613,7 +601,7 @@ export const IdealGasSim: React.FC = () => {
       const toX = (v: number) => margin.left + ((v - xMin) / (xMax - xMin)) * gw;
       const toY = (p: number) => margin.top + gh - ((p - yMin) / (yMax - yMin)) * gh;
 
-      // Grid
+      // Grade
       ctx.strokeStyle = 'rgba(255,255,255,0.04)';
       ctx.lineWidth = 0.5;
       for (let i = 0; i <= 5; i++) {
@@ -623,7 +611,7 @@ export const IdealGasSim: React.FC = () => {
         ctx.beginPath(); ctx.moveTo(margin.left, y); ctx.lineTo(margin.left + gw, y); ctx.stroke();
       }
 
-      // Axes
+      // Eixos
       ctx.strokeStyle = 'rgba(255,255,255,0.25)';
       ctx.lineWidth = 1.5;
       ctx.beginPath();
@@ -632,7 +620,7 @@ export const IdealGasSim: React.FC = () => {
       ctx.lineTo(margin.left + gw, margin.top + gh);
       ctx.stroke();
 
-      // Axis labels
+      // Rótulos dos eixos
       ctx.fillStyle = 'rgba(255,255,255,0.5)';
       ctx.font = '10px monospace';
       ctx.textAlign = 'center';
@@ -644,7 +632,7 @@ export const IdealGasSim: React.FC = () => {
       ctx.fillText(axes.yLabel, 0, 0);
       ctx.restore();
 
-      // Empty prompt text
+      // Texto indicativo quando vazio
       if (graphPath.length === 0) {
         ctx.fillStyle = 'rgba(255,255,255,0.3)';
         ctx.font = '10px sans-serif';
@@ -652,7 +640,7 @@ export const IdealGasSim: React.FC = () => {
         ctx.fillText('Altere os controles para formar o gráfico', margin.left + gw / 2, margin.top + gh / 2);
       }
 
-      // Ticks
+      // Marcas de escala (ticks)
       ctx.font = '8px monospace';
       ctx.fillStyle = 'rgba(255,255,255,0.3)';
       const xIsInt = axes.xLabel.includes('K');
@@ -673,7 +661,7 @@ export const IdealGasSim: React.FC = () => {
       };
       const curveColor = transColors[transType];
 
-      // 1. Draw connecting line through recorded points (ONLY appears after 10 or more points)
+      // 1. Desenha a linha de conexão pelos pontos gravados (APENAS aparece após 10 ou mais pontos)
       if (graphPath.length >= 10) {
         ctx.shadowColor = curveColor;
         ctx.shadowBlur = 8;
@@ -701,7 +689,7 @@ export const IdealGasSim: React.FC = () => {
         ctx.stroke();
       }
 
-      // 2. Projections to X and Y axes for the LAST (current) point (only when < 10 points)
+      // 2. Projeções para os eixos X e Y para o ÚLTIMO ponto (atual) (apenas quando < 10 pontos)
       if (graphPath.length > 0 && graphPath.length < 10) {
         const lastPt = graphPath[graphPath.length - 1];
         const lx = toX(lastPt.x);
@@ -712,13 +700,13 @@ export const IdealGasSim: React.FC = () => {
         ctx.lineWidth = 1;
         ctx.setLineDash([3, 3]);
 
-        // Projection to X axis
+        // Projeção para o eixo X
         ctx.beginPath();
         ctx.moveTo(lx, ly);
         ctx.lineTo(lx, margin.top + gh);
         ctx.stroke();
 
-        // Projection to Y axis
+        // Projeção para o eixo Y
         ctx.beginPath();
         ctx.moveTo(lx, ly);
         ctx.lineTo(margin.left, ly);
@@ -727,7 +715,7 @@ export const IdealGasSim: React.FC = () => {
         ctx.restore();
       }
 
-      // 3. Draw past historical points (nodes)
+      // 3. Desenha pontos históricos anteriores (nós)
       graphPath.forEach((pt, i) => {
         const cx = toX(pt.x);
         const cy = toY(pt.y);
@@ -741,7 +729,7 @@ export const IdealGasSim: React.FC = () => {
           ctx.arc(cx, cy, 3.5, 0, Math.PI * 2);
           ctx.fill(); ctx.stroke();
 
-          // Node number label (only when < 10 points)
+          // Rótulo do número do nó (apenas quando < 10 pontos)
           if (graphPath.length < 10) {
             ctx.fillStyle = 'rgba(255,255,255,0.6)';
             ctx.font = 'bold 8px monospace';
@@ -751,14 +739,14 @@ export const IdealGasSim: React.FC = () => {
         }
       });
 
-      // 4. Draw LAST (latest) point with maximum prominence
+      // 4. Desenha o ÚLTIMO ponto (mais recente) com máximo destaque
       if (graphPath.length > 0) {
         const lastIdx = graphPath.length - 1;
         const lastPt = graphPath[lastIdx];
         const lx = toX(lastPt.x);
         const ly = toY(lastPt.y);
 
-        // Outer glowing pulse ring
+        // Anel de pulso brilhante externo
         ctx.shadowColor = curveColor;
         ctx.shadowBlur = 15;
         ctx.strokeStyle = curveColor;
@@ -768,14 +756,14 @@ export const IdealGasSim: React.FC = () => {
         ctx.arc(lx, ly, 6, 0, Math.PI * 2);
         ctx.fill(); ctx.stroke();
 
-        // Inner white core
+        // Núcleo branco interno
         ctx.fillStyle = '#ffffff';
         ctx.beginPath();
         ctx.arc(lx, ly, 2.5, 0, Math.PI * 2);
         ctx.fill();
         ctx.shadowBlur = 0;
 
-        // Floating Callout Badge above last point ONLY when < 10 points
+        // Balão flutuante acima do último ponto APENAS quando < 10 pontos
         if (graphPath.length < 10) {
           const labelText = `#${lastIdx + 1} (${lastPt.x.toFixed(1)}, ${lastPt.y.toFixed(1)})`;
           ctx.font = 'bold 9px sans-serif';
@@ -785,7 +773,7 @@ export const IdealGasSim: React.FC = () => {
           const badgeX = Math.max(margin.left + 5, Math.min(w - margin.right - badgeW, lx - badgeW / 2));
           const badgeY = Math.max(margin.top + 2, ly - 22);
 
-          // Badge background
+          // Fundo do balão
           ctx.fillStyle = 'rgba(15, 20, 35, 0.95)';
           ctx.strokeStyle = curveColor;
           ctx.lineWidth = 1;
@@ -793,7 +781,7 @@ export const IdealGasSim: React.FC = () => {
           ctx.roundRect(badgeX, badgeY, badgeW, badgeH, 4);
           ctx.fill(); ctx.stroke();
 
-          // Badge text
+          // Texto do balão
           ctx.fillStyle = curveColor;
           ctx.textAlign = 'center';
           ctx.fillText(labelText, badgeX + badgeW / 2, badgeY + 11);
@@ -841,7 +829,7 @@ export const IdealGasSim: React.FC = () => {
   };
 
   // =============================================
-  // RENDER
+  // RENDERIZAÇÃO
   // =============================================
 
   const transConfigs = [
@@ -864,12 +852,12 @@ export const IdealGasSim: React.FC = () => {
 
   return (
     <div className="flex flex-col lg:flex-row gap-6 h-full animate-fade-in-up font-sans">
-      {/* Main visual container (particle sim + graph side-by-side in transformations) */}
+      {/* Recipiente visual principal (simulação de partículas + gráfico lado a lado em transformações) */}
       <div
         ref={containerRef}
         className="relative flex-1 min-h-[300px] sm:min-h-[380px] bg-celestial-900 rounded-2xl border border-white/10 overflow-hidden shadow-2xl flex flex-col md:flex-row"
       >
-        {/* Left section: Particle simulation (larger 2/3 share) */}
+        {/* Seção esquerda: Simulação de partículas (maior parcela: 2/3) */}
         <div className={`relative ${activeTab === 'transformations' ? 'w-full md:w-2/3 h-[280px] md:h-full' : 'w-full h-full'}`}>
           <canvas
             ref={canvasRef}
@@ -877,7 +865,7 @@ export const IdealGasSim: React.FC = () => {
           />
         </div>
 
-        {/* Right section inside container: Real-time Graph (floating card layout, larger height) */}
+        {/* Seção direita dentro do recipiente: Gráfico em tempo real (layout de cartão flutuante) */}
         {activeTab === 'transformations' && (
           <div className="relative w-full md:w-1/3 h-[240px] md:h-[310px] self-center my-auto p-3 bg-black/50 backdrop-blur-sm flex flex-col justify-between rounded-xl md:mr-3 border border-white/10 shadow-xl">
             <div className="flex items-center justify-between px-1 pb-1.5 border-b border-white/10">
@@ -904,7 +892,7 @@ export const IdealGasSim: React.FC = () => {
           </div>
         )}
 
-        {/* Toolbar */}
+        {/* Barra de ferramentas */}
         <div className="absolute top-4 right-4 flex gap-2 z-20">
           <button
             onClick={() => setIsRunning(!isRunning)}
@@ -936,7 +924,7 @@ export const IdealGasSim: React.FC = () => {
           </button>
         </div>
 
-        {/* Fullscreen Controls Overlay */}
+        {/* Sobreposição de Controles em Tela Cheia */}
         {isFullscreen && (
           <div className="absolute bottom-6 right-6 z-50" onMouseDown={(e) => e.stopPropagation()}>
             <button
@@ -1013,11 +1001,11 @@ export const IdealGasSim: React.FC = () => {
         )}
       </div>
 
-      {/* Control Panel */}
+      {/* Painel de Controle */}
       <div className="w-full lg:w-96 space-y-5 p-6 bg-celestial-800/30 rounded-xl border border-white/10 backdrop-blur-sm h-fit font-sans">
         <h2 className="text-2xl font-bold tracking-tight text-celestial-accent">{t('gas.title')}</h2>
 
-        {/* Tabs */}
+        {/* Abas */}
         <div className="flex gap-2">
           <button
             onClick={() => setActiveTab('lab')}
@@ -1041,18 +1029,18 @@ export const IdealGasSim: React.FC = () => {
           </button>
         </div>
 
-        {/* ============ LAB TAB ============ */}
+        {/* ============ ABA LABORATÓRIO ============ */}
         {activeTab === 'lab' && (
           <>
-            {/* Formula */}
+            {/* Fórmula */}
             <div className="p-4 bg-black/40 rounded-xl border border-celestial-500/30 text-center">
               <div className="text-lg font-mono font-bold text-celestial-accent tracking-wider">PV = nRT</div>
               <div className="text-[10px] text-gray-500 mt-1">{t('gas.formula_desc')}</div>
             </div>
 
-            {/* Controls */}
+            {/* Controles */}
             <div className="space-y-5">
-              {/* Temperature */}
+              {/* Temperatura */}
               <div className="space-y-1">
                 <div className="flex justify-between text-xs font-bold text-gray-400 uppercase tracking-wider">
                   <label>{t('gas.temperature')} (K)</label>
@@ -1065,7 +1053,7 @@ export const IdealGasSim: React.FC = () => {
                 <div className="flex justify-between text-[9px] text-gray-600"><span>100 K</span><span>800 K</span></div>
               </div>
 
-              {/* Volume in Liters */}
+              {/* Volume em Litros */}
               <div className="space-y-1">
                 <div className="flex justify-between text-xs font-bold text-gray-400 uppercase tracking-wider">
                   <label>{t('gas.volume')} (L)</label>
@@ -1078,7 +1066,7 @@ export const IdealGasSim: React.FC = () => {
                 <div className="flex justify-between text-[9px] text-gray-600"><span>2.0 L</span><span>10.0 L</span></div>
               </div>
 
-              {/* Particles */}
+              {/* Partículas */}
               <div className="space-y-1">
                 <div className="flex justify-between text-xs font-bold text-gray-400 uppercase tracking-wider">
                   <label>{t('gas.particles')} (n)</label>
@@ -1092,7 +1080,7 @@ export const IdealGasSim: React.FC = () => {
               </div>
             </div>
 
-            {/* Pressure only */}
+            {/* Apenas Pressão */}
             <div className="p-4 bg-black/40 rounded-xl border border-white/5 space-y-3">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">{t('gas.pressure')} (P)</span>
@@ -1114,10 +1102,10 @@ export const IdealGasSim: React.FC = () => {
           </>
         )}
 
-        {/* ============ TRANSFORMATIONS TAB ============ */}
+        {/* ============ ABA TRANSFORMAÇÕES ============ */}
         {activeTab === 'transformations' && (
           <>
-            {/* Type selector (clean text only, no icons) */}
+            {/* Seletor de tipo (apenas texto limpo) */}
             <div className="grid grid-cols-1 gap-2">
               {transConfigs.map(({ type, color }) => (
                 <button
@@ -1137,13 +1125,13 @@ export const IdealGasSim: React.FC = () => {
               ))}
             </div>
 
-            {/* Constant badge */}
+            {/* Badge de constante */}
             <div className="flex items-center gap-2 px-3 py-2 bg-white/5 rounded-lg border border-white/10">
               <Lock size={12} className="text-gray-400" />
               <span className="text-[10px] text-gray-300 font-mono">{getConstantInfo()} — {t('gas.trans_const')}</span>
             </div>
 
-            {/* Temperature slider */}
+            {/* Slider de temperatura */}
             <div className={`space-y-1 ${!isTempFree ? 'opacity-40 pointer-events-none' : ''}`}>
               <div className="flex justify-between text-xs font-bold text-gray-400 uppercase tracking-wider">
                 <label className="flex items-center gap-1.5">
@@ -1160,7 +1148,7 @@ export const IdealGasSim: React.FC = () => {
               <div className="flex justify-between text-[9px] text-gray-600"><span>100 K</span><span>800 K</span></div>
             </div>
 
-            {/* Volume slider */}
+            {/* Slider de volume */}
             <div className={`space-y-1 ${!isVolFree ? 'opacity-40 pointer-events-none' : ''}`}>
               <div className="flex justify-between text-xs font-bold text-gray-400 uppercase tracking-wider">
                 <label className="flex items-center gap-1.5">
@@ -1177,7 +1165,7 @@ export const IdealGasSim: React.FC = () => {
               <div className="flex justify-between text-[9px] text-gray-600"><span>2.0 L</span><span>10.0 L</span></div>
             </div>
 
-            {/* Current state readout */}
+            {/* Leitura do estado atual */}
             <div className="p-3 bg-black/40 rounded-xl border border-white/5 space-y-2">
               <div className="flex items-center justify-between">
                 <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">{t('gas.pressure')} (P)</span>
