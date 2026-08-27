@@ -1,0 +1,914 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/nzipa6",
+    "id": "nzipa6",
+    "slide": 17,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Calibri",
+      "Calibri Light"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9krqxk72",
+      "id": "8",
+      "name": "eyebrow",
+      "bbox": [
+        56,
+        34,
+        650,
+        24
+      ],
+      "geometry": "rect",
+      "text": "GASES IDEAIS + TERMODINÂMICA",
+      "textPreview": "GASES IDEAIS + TERMODINÂMICA",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GASES IDEAIS + TERMODINÂMICA"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GASES IDEAIS + TERMODINÂMICA",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Arial",
+            "color": "#087E8B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GASES IDEAIS + TERMODINÂMICA",
+              "fontSize": 16,
+              "typeface": "Arial",
+              "color": "#087E8B",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqt83up4",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        56,
+        72,
+        1130,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Cada transformação conta uma história de energia",
+      "textPreview": "Cada transformação conta uma história de energia",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Cada transformação conta uma história de energia"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cada transformação conta uma história de energia",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cada transformação conta uma história de energia",
+              "fontSize": 46,
+              "typeface": "Arial",
+              "color": "#10131A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ip0rapoj",
+      "id": "3",
+      "name": "rule",
+      "bbox": [
+        56,
+        142,
+        1168,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xorq1k7y",
+      "id": "4",
+      "name": "page-14",
+      "bbox": [
+        1174,
+        656,
+        50,
+        32
+      ],
+      "geometry": "rect",
+      "text": "17",
+      "textPreview": "17",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "17"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "17",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "17",
+              "fontSize": 14,
+              "typeface": "Arial",
+              "color": "#5D6470",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#EEF1F3",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/143q1wjm",
+      "id": "9",
+      "bbox": [
+        56,
+        186,
+        1168,
+        390
+      ],
+      "text": "Processo | O que não muda | Trabalho / energia | Leitura física\nIsocórico | V constante | W = 0; ΔU = Q | Aquecer aumenta T, U e P\nIsotérmico | T constante | ΔU = 0; Q = W | Energia recebida sustenta a expansão\nIsobárico | P constante | Q = ΔU + W | Aquecer aumenta T e expande o gás",
+      "textPreview": "Processo | O que não muda | Trabalho / energia | Leitura física | Isocórico | V constante | W = 0; ΔU = Q | Aquecer aumenta T, U e P | Is...",
+      "rows": 4,
+      "cols": 4,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            56,
+            186,
+            220,
+            97.5
+          ],
+          "text": "Processo",
+          "textPreview": "Processo",
+          "fillColor": "#087E8B",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Processo",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Processo",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            276,
+            186,
+            280,
+            97.5
+          ],
+          "text": "O que não muda",
+          "textPreview": "O que não muda",
+          "fillColor": "#087E8B",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "O que não muda",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "O que não muda",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            556,
+            186,
+            280,
+            97.5
+          ],
+          "text": "Trabalho / energia",
+          "textPreview": "Trabalho / energia",
+          "fillColor": "#087E8B",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Trabalho / energia",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Trabalho / energia",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            836,
+            186,
+            388,
+            97.5
+          ],
+          "text": "Leitura física",
+          "textPreview": "Leitura física",
+          "fillColor": "#087E8B",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Leitura física",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Leitura física",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            56,
+            283.5,
+            220,
+            97.5
+          ],
+          "text": "Isocórico",
+          "textPreview": "Isocórico",
+          "fillColor": "#E4F6EF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Isocórico",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Isocórico",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#10131A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            276,
+            283.5,
+            280,
+            97.5
+          ],
+          "text": "V constante",
+          "textPreview": "V constante",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "V constante",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "V constante",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#10131A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            556,
+            283.5,
+            280,
+            97.5
+          ],
+          "text": "W = 0; ΔU = Q",
+          "textPreview": "W = 0; ΔU = Q",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "W = 0; ΔU = Q",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "W = 0; ΔU = Q",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#10131A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            836,
+            283.5,
+            388,
+            97.5
+          ],
+          "text": "Aquecer aumenta T, U e P",
+          "textPreview": "Aquecer aumenta T, U e P",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Aquecer aumenta T, U e P",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Aquecer aumenta T, U e P",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#10131A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            56,
+            381,
+            220,
+            97.5
+          ],
+          "text": "Isotérmico",
+          "textPreview": "Isotérmico",
+          "fillColor": "#DDF8FB",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Isotérmico",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Isotérmico",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#10131A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            276,
+            381,
+            280,
+            97.5
+          ],
+          "text": "T constante",
+          "textPreview": "T constante",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "T constante",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "T constante",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#10131A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            556,
+            381,
+            280,
+            97.5
+          ],
+          "text": "ΔU = 0; Q = W",
+          "textPreview": "ΔU = 0; Q = W",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "ΔU = 0; Q = W",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "ΔU = 0; Q = W",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#10131A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            836,
+            381,
+            388,
+            97.5
+          ],
+          "text": "Energia recebida sustenta a expansão",
+          "textPreview": "Energia recebida sustenta a expansão",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Energia recebida sustenta a expansão",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Energia recebida sustenta a expansão",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#10131A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            56,
+            478.5,
+            220,
+            97.5
+          ],
+          "text": "Isobárico",
+          "textPreview": "Isobárico",
+          "fillColor": "#FDE8EA",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Isobárico",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Isobárico",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#10131A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            276,
+            478.5,
+            280,
+            97.5
+          ],
+          "text": "P constante",
+          "textPreview": "P constante",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "P constante",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "P constante",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#10131A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            556,
+            478.5,
+            280,
+            97.5
+          ],
+          "text": "Q = ΔU + W",
+          "textPreview": "Q = ΔU + W",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Q = ΔU + W",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Q = ΔU + W",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#10131A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            836,
+            478.5,
+            388,
+            97.5
+          ],
+          "text": "Aquecer aumenta T e expande o gás",
+          "textPreview": "Aquecer aumenta T e expande o gás",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Aquecer aumenta T e expande o gás",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Aquecer aumenta T e expande o gás",
+                  "fontSize": 20,
+                  "typeface": "Arial",
+                  "color": "#10131A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vm98zap8",
+      "id": "6",
+      "name": "text-txlv8c6",
+      "bbox": [
+        142,
+        610,
+        996,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Para um gás ideal, mudar a temperatura significa mudar a energia interna.",
+      "textPreview": "Para um gás ideal, mudar a temperatura significa mudar a energia interna.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Para um gás ideal, mudar a temperatura significa mudar a energia interna."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Para um gás ideal, mudar a temperatura significa mudar a energia interna.",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Arial",
+            "color": "#0A1026",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Para um gás ideal, mudar a temperatura significa mudar a energia interna.",
+              "fontSize": 27,
+              "typeface": "Arial",
+              "color": "#0A1026",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al07658n",
+      "id": "7",
+      "name": "source-footer",
+      "bbox": [
+        56,
+        667,
+        500,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Síntese conceitual • sem cálculo de áreas no 1º ano",
+      "textPreview": "Síntese conceitual • sem cálculo de áreas no 1º ano",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Síntese conceitual • sem cálculo de áreas no 1º ano"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Síntese conceitual • sem cálculo de áreas no 1º ano",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Arial",
+            "color": "#7A8089",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Síntese conceitual • sem cálculo de áreas no 1º ano",
+              "fontSize": 13,
+              "typeface": "Arial",
+              "color": "#7A8089"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

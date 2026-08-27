@@ -1,0 +1,23 @@
+{
+  "outputSlides": [
+    {"outputSlide":1,"sourceSlide":1,"narrativeRole":"preserved title slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":2,"sourceSlide":2,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/nu58f2hs","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":3,"sourceSlide":3,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/a5c3ql8z","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":4,"sourceSlide":4,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/1wbapc7q","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":5,"sourceSlide":5,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/j6dwfqds","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":6,"sourceSlide":6,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/twfux0ne","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":7,"sourceSlide":7,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/xcz2l03q","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":8,"sourceSlide":8,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/ehgvihwr","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":9,"sourceSlide":9,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/0ru1ozyp","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":10,"sourceSlide":10,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/q5gb21kb","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":11,"sourceSlide":11,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/epobatgr","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":12,"sourceSlide":12,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/b6d4f2lc","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":13,"sourceSlide":13,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/cnqh8fux","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":14,"sourceSlide":14,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/0buh8zy5","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":15,"sourceSlide":15,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/0z29cbyh","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":16,"sourceSlide":16,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/ps3y5knq","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":17,"sourceSlide":17,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/jilcvq54","reason":"clear requested eyebrow text"}]},
+    {"outputSlide":18,"sourceSlide":18,"narrativeRole":"lesson slide without upper label","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/to72pw76","reason":"clear requested eyebrow text"}]}
+  ],
+  "omittedSourceSlides": []
+}

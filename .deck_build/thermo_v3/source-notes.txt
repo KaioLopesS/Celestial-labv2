@@ -1,0 +1,8 @@
+Primary reference for the first law and sign conventions:
+- https://pt.khanacademy.org/science/physics/thermodynamics/laws-of-thermodynamics/a/what-is-the-first-law-of-thermodynamics
+- https://pt.khanacademy.org/science/chemistry/thermodynamics-chemistry/internal-energy-sal/v/work-from-expansion
+
+Local media:
+- C:/Users/User/Desktop/celestial-labv1/Animacao_1_Primeira_Lei_Termodinamica.mp4
+- C:/Users/User/Desktop/celestial-labv1/Animacao_2_Compressao_Convencao_Sinais.mp4
+- C:/Users/User/Desktop/celestial-labv1/animacao2_compressao_sinais.py

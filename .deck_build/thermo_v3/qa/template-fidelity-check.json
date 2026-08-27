@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-08-23T18:37:17.887Z",
+  "workspace": "C:\\Users\\User\\Desktop\\celestial-labv1\\.deck_build\\thermo_v3",
+  "finalPptx": "C:\\Users\\User\\Desktop\\celestial-labv1\\Aula_Gases_Ideais_Termodinamica_80min_animacoes_incorporadas.pptx",
+  "starterPptx": "C:\\Users\\User\\Desktop\\celestial-labv1\\.deck_build\\thermo_v3\\template-starter.pptx",
+  "mapPath": "C:\\Users\\User\\Desktop\\celestial-labv1\\.deck_build\\thermo_v3\\template-frame-map.json",
+  "starterLayoutDir": "C:\\Users\\User\\Desktop\\celestial-labv1\\.deck_build\\thermo_v3\\template-starter-layout",
+  "finalLayoutDir": "C:\\Users\\User\\Desktop\\celestial-labv1\\.deck_build\\thermo_v3\\final-layout\\final",
+  "editDir": "C:\\Users\\User\\Desktop\\celestial-labv1\\.deck_build\\thermo_v3",
+  "issueCount": 0,
+  "issues": []
+}

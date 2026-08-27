@@ -1,0 +1,7 @@
+- Slide 5: rotina reescrita para demonstração controlada pelo professor.
+- Slides 6 e 9: instruções e terceira coluna das tabelas simplificadas; estudantes registram apenas a tendência, sem construir gráfico ou calcular razões/produtos.
+- Slides 8, 11 e 16: exercícios reduzidos a uma decisão ou conta de uma etapa com alternativas simples.
+- Slide 13: desafio em grupos substituído por três previsões coletivas; o professor manipula o simulador e o gráfico confirma.
+- Slide 18: exit ticket encurtado, mantendo três verificações rápidas.
+- Notas do professor atualizadas com condução e gabarito; a soma permanece em 80 minutos.
+- A inspeção oficial exigia unzip, ausente neste Windows; foi usada uma cópia local do inspetor com tar.exe apenas para leitura. Nenhum arquivo da skill foi alterado.

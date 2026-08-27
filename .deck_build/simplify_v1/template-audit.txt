@@ -1,0 +1,21 @@
+Fonte: Aula_Gases_Ideais_Termodinamica_80min_com_exercicios.pptx
+Formato: 1280 × 720 px, 16:9, 18 slides.
+
+Sistema visual
+- Fundo branco, títulos Arial em negrito, chamadas teal, linha fina sob o título.
+- Marcador de página cinza no canto inferior direito; rodapé de fonte/contexto no canto inferior esquerdo.
+- Slides 8, 11, 16 e 18 usam o mesmo padrão de três linhas numeradas e uma faixa escura inferior.
+- Slide 13 usa três capturas reais do Celestial Lab em colunas.
+
+Estrutura herdada
+- Um master e um layout preservados; sem elementos visíveis nas camadas herdadas.
+- Conteúdo editável localizado nos próprios slides; não foram encontrados placeholders estruturais vazios.
+
+Contrato de edição
+- Duplicar os 18 slides na mesma ordem.
+- Preservar imagens, gráficos, tema, master, layout, tipografia, posições, rodapés e numeração.
+- Reescrever somente os objetos mapeados nos slides 5, 6, 8, 9, 11, 13, 16 e 18.
+- Manter os 80 minutos; os estudantes preveem e fazem contas curtas, enquanto o professor controla o Celestial Lab.
+
+Comunicação
+Ao final, estudantes do 1º ano devem reconhecer se uma grandeza sobe ou desce e resolver três contas de uma etapa porque o simulador confirma imediatamente suas previsões.

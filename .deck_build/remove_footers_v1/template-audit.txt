@@ -1,0 +1,7 @@
+Fonte visual: Aula_Gases_Ideais_Termodinamica_80min_exercicios_simplificados.pptx.
+
+Estrutura preservada: 18 slides, proporção 16:9, mesmos mestres, layouts, imagens, tabelas, gráficos, tipografia, numeração e notas do professor.
+
+Alteração solicitada: limpar apenas os textos denominados source-footer no canto inferior esquerdo dos slides 2 a 18. O slide 1 não contém esse objeto. Os marcadores de página no canto inferior direito permanecem.
+
+Não há novos elementos, imagens, afirmações ou fontes externas.

@@ -1,0 +1,1422 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/663zsf",
+    "id": "663zsf",
+    "slide": 4,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Calibri",
+      "Calibri Light"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/107a18n6",
+      "id": "24",
+      "name": "eyebrow",
+      "bbox": [
+        56,
+        34,
+        650,
+        24
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xgralkbi",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        56,
+        72,
+        1130,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Quatro grandezas descrevem o estado do gás",
+      "textPreview": "Quatro grandezas descrevem o estado do gás",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Quatro grandezas descrevem o estado do gás"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Quatro grandezas descrevem o estado do gás",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Quatro grandezas descrevem o estado do gás",
+              "fontSize": 46,
+              "typeface": "Arial",
+              "color": "#10131A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfi9sfux",
+      "id": "3",
+      "name": "rule",
+      "bbox": [
+        56,
+        142,
+        1168,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nap8fat0",
+      "id": "4",
+      "name": "page-04",
+      "bbox": [
+        1174,
+        656,
+        50,
+        32
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 14,
+              "typeface": "Arial",
+              "color": "#5D6470",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#EEF1F3",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29grm5cv",
+      "id": "5",
+      "name": "ideal-gas-equation",
+      "bbox": [
+        64,
+        192,
+        500,
+        108
+      ],
+      "geometry": "rect",
+      "text": "PV = nRT",
+      "textPreview": "PV = nRT",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PV = nRT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PV = nRT",
+          "resolvedTextStyle": {
+            "fontSize": 78,
+            "typeface": "Arial",
+            "color": "#0A1026",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PV = nRT",
+              "fontSize": 78,
+              "typeface": "Arial",
+              "color": "#0A1026",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pc7qhkb6",
+      "id": "6",
+      "name": "text-ctlurte",
+      "bbox": [
+        64,
+        316,
+        500,
+        95
+      ],
+      "geometry": "rect",
+      "text": "A equação organiza as relações que vamos testar — não é uma lista de letras para decorar.",
+      "textPreview": "A equação organiza as relações que vamos testar — não é uma lista de letras para decorar.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A equação organiza as relações que"
+          },
+          {
+            "index": 2,
+            "text": "vamos testar — não é uma lista de letras"
+          },
+          {
+            "index": 3,
+            "text": "para decorar."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A equação organiza as relações que vamos testar — não é uma lista de letras para decorar.",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A equação organiza as relações que vamos testar — não é uma lista de letras para decorar.",
+              "fontSize": 26,
+              "typeface": "Arial",
+              "color": "#5D6470"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oby9oful",
+      "id": "7",
+      "name": "variables-panel",
+      "bbox": [
+        640,
+        184,
+        520,
+        382
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEF1F3",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/76tsrutk",
+      "id": "8",
+      "name": "text-aet0i7u",
+      "bbox": [
+        672,
+        210,
+        64,
+        52
+      ],
+      "geometry": "rect",
+      "text": "P",
+      "textPreview": "P",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "P"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "P",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Arial",
+            "color": "#E95B65",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "P",
+              "fontSize": 38,
+              "typeface": "Arial",
+              "color": "#E95B65",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m5krypcz",
+      "id": "9",
+      "name": "text-nfc49ta",
+      "bbox": [
+        762,
+        212,
+        260,
+        32
+      ],
+      "geometry": "rect",
+      "text": "pressão",
+      "textPreview": "pressão",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "pressão"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "pressão",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "pressão",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#10131A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kbalwfyd",
+      "id": "10",
+      "name": "text-6ji6lgk",
+      "bbox": [
+        1020,
+        215,
+        112,
+        28
+      ],
+      "geometry": "rect",
+      "text": "kPa",
+      "textPreview": "kPa",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "kPa"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "kPa",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "kPa",
+              "fontSize": 19,
+              "typeface": "Arial",
+              "color": "#5D6470"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5cj2pkfy",
+      "id": "11",
+      "name": "text-lgjpo1a",
+      "bbox": [
+        672,
+        292,
+        64,
+        52
+      ],
+      "geometry": "rect",
+      "text": "V",
+      "textPreview": "V",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "V"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "V",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Arial",
+            "color": "#3D8DFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "V",
+              "fontSize": 38,
+              "typeface": "Arial",
+              "color": "#3D8DFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i9s3u5gn",
+      "id": "12",
+      "name": "text-ojd8v2i",
+      "bbox": [
+        762,
+        294,
+        260,
+        32
+      ],
+      "geometry": "rect",
+      "text": "volume",
+      "textPreview": "volume",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "volume"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "volume",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "volume",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#10131A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ja1knaxs",
+      "id": "13",
+      "name": "text-mz2y33h",
+      "bbox": [
+        1020,
+        297,
+        112,
+        28
+      ],
+      "geometry": "rect",
+      "text": "L",
+      "textPreview": "L",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "L"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "L",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "L",
+              "fontSize": 19,
+              "typeface": "Arial",
+              "color": "#5D6470"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7qlsvyh",
+      "id": "14",
+      "name": "text-ftgywrw",
+      "bbox": [
+        672,
+        374,
+        64,
+        52
+      ],
+      "geometry": "rect",
+      "text": "n",
+      "textPreview": "n",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "n"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "n",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Arial",
+            "color": "#3DBB91",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "n",
+              "fontSize": 38,
+              "typeface": "Arial",
+              "color": "#3DBB91",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8z2l0f2",
+      "id": "15",
+      "name": "text-djhvbsf",
+      "bbox": [
+        762,
+        376,
+        260,
+        32
+      ],
+      "geometry": "rect",
+      "text": "quantidade de gás",
+      "textPreview": "quantidade de gás",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "quantidade de gás"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "quantidade de gás",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "quantidade de gás",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#10131A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al83qlgb",
+      "id": "16",
+      "name": "text-mwsrrsp",
+      "bbox": [
+        1020,
+        379,
+        112,
+        28
+      ],
+      "geometry": "rect",
+      "text": "mol / partículas",
+      "textPreview": "mol / partículas",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "mol /"
+          },
+          {
+            "index": 2,
+            "text": "partículas"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "mol / partículas",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "mol / partículas",
+              "fontSize": 19,
+              "typeface": "Arial",
+              "color": "#5D6470"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6hkjqxw",
+      "id": "17",
+      "name": "text-ah1583m",
+      "bbox": [
+        672,
+        456,
+        64,
+        52
+      ],
+      "geometry": "rect",
+      "text": "T",
+      "textPreview": "T",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "T"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "T",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Arial",
+            "color": "#F28C45",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "T",
+              "fontSize": 38,
+              "typeface": "Arial",
+              "color": "#F28C45",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqlovy5",
+      "id": "18",
+      "name": "text-fbuicsq",
+      "bbox": [
+        762,
+        458,
+        260,
+        32
+      ],
+      "geometry": "rect",
+      "text": "temperatura absoluta",
+      "textPreview": "temperatura absoluta",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "temperatura"
+          },
+          {
+            "index": 2,
+            "text": "absoluta"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "temperatura absoluta",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "temperatura absoluta",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#10131A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9kz2h0fq",
+      "id": "19",
+      "name": "text-p66fpch",
+      "bbox": [
+        1020,
+        461,
+        112,
+        28
+      ],
+      "geometry": "rect",
+      "text": "K",
+      "textPreview": "K",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "K"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "K",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "K",
+              "fontSize": 19,
+              "typeface": "Arial",
+              "color": "#5D6470"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/po7a5sni",
+      "id": "20",
+      "name": "kelvin-note",
+      "bbox": [
+        64,
+        492,
+        500,
+        74
+      ],
+      "geometry": "rect",
+      "fillColor": "#DDF8FB",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o3y9wnmx",
+      "id": "21",
+      "name": "text-hl09t8y",
+      "bbox": [
+        86,
+        512,
+        460,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Nas leis dos gases, use temperatura em kelvin.",
+      "textPreview": "Nas leis dos gases, use temperatura em kelvin.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Nas leis dos gases, use temperatura"
+          },
+          {
+            "index": 2,
+            "text": "em kelvin."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Nas leis dos gases, use temperatura em kelvin.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#087E8B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Nas leis dos gases, use temperatura em kelvin.",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#087E8B",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32ps3i5c",
+      "id": "22",
+      "name": "text-llqhpf2",
+      "bbox": [
+        64,
+        594,
+        500,
+        30
+      ],
+      "geometry": "rect",
+      "text": "R é a constante universal dos gases.",
+      "textPreview": "R é a constante universal dos gases.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "R é a constante universal dos gases."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "R é a constante universal dos gases.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "R é a constante universal dos gases.",
+              "fontSize": 20,
+              "typeface": "Arial",
+              "color": "#5D6470"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/21grud4r",
+      "id": "23",
+      "name": "source-footer",
+      "bbox": [
+        56,
+        667,
+        500,
+        20
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

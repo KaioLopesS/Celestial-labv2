@@ -1,0 +1,12 @@
+Template audit — revisão com animações incorporadas
+
+Source: Aula_Gases_Ideais_Termodinamica_80min_com_animacoes.pptx
+Format: 16:9, 1280 x 720 px
+Slides in source: 20
+Slides in revised output: 18
+Theme: white canvas, navy text and panels, cyan rules, orange/blue/green variable accents.
+Typography and spacing: inherited without restyling.
+Preserved range: slides 1–13 remain unchanged.
+Selected thermodynamics layouts: section cover (source 14), system diagram (source 15), equation/sign convention (source 16), image plus explanation (source 19), exit ticket (source 20).
+Upper eyebrow labels and source footers remain blank.
+Animations are embedded as animated GIF image replacements in inherited image zones.

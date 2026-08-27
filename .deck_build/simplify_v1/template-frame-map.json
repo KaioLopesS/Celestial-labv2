@@ -1,0 +1,79 @@
+{
+  "outputSlides": [
+    {"outputSlide":1,"sourceSlide":1,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":2,"sourceSlide":2,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":3,"sourceSlide":3,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":4,"sourceSlide":4,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":5,"sourceSlide":5,"narrativeRole":"teacher controlled simulator routine","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/dgbulwnm","reason":"teacher-led title"},
+      {"action":"rewrite","sourceElementId":"sh/l4bupwny","reason":"observation step"},
+      {"action":"rewrite","sourceElementId":"sh/n6dcr65o","reason":"prediction step"},
+      {"action":"rewrite","sourceElementId":"sh/w32dkbuh","reason":"teacher control step"},
+      {"action":"rewrite","sourceElementId":"sh/ahkvi1cb","reason":"short record step"},
+      {"action":"rewrite","sourceElementId":"sh/58vehgvy","reason":"collective vote prompt"}
+    ]},
+    {"outputSlide":6,"sourceSlide":6,"narrativeRole":"teacher demonstration of isochoric trend","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/yhg7epsj","reason":"demonstration title"},
+      {"action":"rewrite","sourceElementId":"sh/7m98ru9g","reason":"teacher-led step"},
+      {"action":"rewrite","sourceElementId":"sh/pc76hkr2","reason":"teacher-led step"},
+      {"action":"rewrite","sourceElementId":"sh/w32twb6l","reason":"simple trend question"},
+      {"action":"rewrite","sourceElementId":"sh/u1kbu1ov","reason":"one-line conclusion"},
+      {"action":"rewrite","sourceElementId":"sh/j6dcr65c","reason":"remove graph construction"},
+      {"action":"rewrite","sourceElementId":"tb/bil0belk","reason":"replace ratio column with trend"}
+    ]},
+    {"outputSlide":7,"sourceSlide":7,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":8,"sourceSlide":8,"narrativeRole":"one-step isochoric exercise","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/18byd4zy","reason":"short question title"},
+      {"action":"rewrite","sourceElementId":"sh/tkby9kzm","reason":"constant quantities"},
+      {"action":"rewrite","sourceElementId":"sh/id0fu50z","reason":"simple numerical data"},
+      {"action":"rewrite","sourceElementId":"sh/m5gvmhwn","reason":"multiple choice answer"},
+      {"action":"rewrite","sourceElementId":"sh/0jydkreh","reason":"short routine"}
+    ]},
+    {"outputSlide":9,"sourceSlide":9,"narrativeRole":"teacher demonstration of isothermal trend","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/1cfmhgne","reason":"demonstration title"},
+      {"action":"rewrite","sourceElementId":"sh/ofq5svm5","reason":"teacher-led step"},
+      {"action":"rewrite","sourceElementId":"sh/ah8nu54b","reason":"teacher-led step"},
+      {"action":"rewrite","sourceElementId":"sh/p0ji9kf2","reason":"simple trend question"},
+      {"action":"rewrite","sourceElementId":"sh/3y107axw","reason":"one-line conclusion"},
+      {"action":"rewrite","sourceElementId":"sh/qlcjipgn","reason":"remove graph construction"},
+      {"action":"rewrite","sourceElementId":"tb/yhg36ds3","reason":"replace product column with trend"}
+    ]},
+    {"outputSlide":10,"sourceSlide":10,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":11,"sourceSlide":11,"narrativeRole":"one-step isothermal exercise","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/xcryxg7y","reason":"short question title"},
+      {"action":"rewrite","sourceElementId":"sh/98rytw72","reason":"constant quantities"},
+      {"action":"rewrite","sourceElementId":"sh/61kzalof","reason":"simple numerical data"},
+      {"action":"rewrite","sourceElementId":"sh/mdobedg3","reason":"multiple choice answer"},
+      {"action":"rewrite","sourceElementId":"sh/0b6tc3yx","reason":"short routine"}
+    ]},
+    {"outputSlide":12,"sourceSlide":12,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":13,"sourceSlide":13,"narrativeRole":"collective simulator prediction rounds","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/cnqh8fux","reason":"collective timing label"},
+      {"action":"rewrite","sourceElementId":"sh/q50nydsj","reason":"collective prediction title"},
+      {"action":"rewrite","sourceElementId":"sh/p4r6p8by","reason":"remove group ownership"},
+      {"action":"rewrite","sourceElementId":"sh/gzy5s3a1","reason":"simple isotermal prediction"},
+      {"action":"rewrite","sourceElementId":"sh/1076lobm","reason":"remove group ownership"},
+      {"action":"rewrite","sourceElementId":"sh/vaxg7ulo","reason":"simple isobaric prediction"},
+      {"action":"rewrite","sourceElementId":"sh/u9ofyp43","reason":"remove group ownership"},
+      {"action":"rewrite","sourceElementId":"sh/7mdg3als","reason":"simple isochoric prediction"},
+      {"action":"rewrite","sourceElementId":"sh/lkvy103m","reason":"teacher-led test routine"}
+    ]},
+    {"outputSlide":14,"sourceSlide":14,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":15,"sourceSlide":15,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":16,"sourceSlide":16,"narrativeRole":"one-step first law exercise","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/8z2h8bq1","reason":"short question title"},
+      {"action":"rewrite","sourceElementId":"sh/kv2h4rqp","reason":"heat datum"},
+      {"action":"rewrite","sourceElementId":"sh/3qdg7qpo","reason":"work datum"},
+      {"action":"rewrite","sourceElementId":"sh/1ojy10ne","reason":"single calculation prompt"},
+      {"action":"rewrite","sourceElementId":"sh/nqlg3a5k","reason":"short routine"}
+    ]},
+    {"outputSlide":17,"sourceSlide":17,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":18,"sourceSlide":18,"narrativeRole":"short exit ticket","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/4felwzu5","reason":"short qualitative question"},
+      {"action":"rewrite","sourceElementId":"sh/rip4retw","reason":"short qualitative question"},
+      {"action":"rewrite","sourceElementId":"sh/1cr2tg72","reason":"short numerical question"},
+      {"action":"rewrite","sourceElementId":"sh/7mpknmp0","reason":"short answer instruction"}
+    ]}
+  ],
+  "omittedSourceSlides": []
+}

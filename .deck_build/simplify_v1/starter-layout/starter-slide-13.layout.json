@@ -1,0 +1,1089 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/d67xwr",
+    "id": "d67xwr",
+    "slide": 13,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Calibri",
+      "Calibri Light"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cr2h8je",
+      "id": "20",
+      "name": "eyebrow",
+      "bbox": [
+        56,
+        34,
+        650,
+        24
+      ],
+      "geometry": "rect",
+      "text": "TRABALHO EM GRUPOS • 8 MINUTOS",
+      "textPreview": "TRABALHO EM GRUPOS • 8 MINUTOS",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TRABALHO EM GRUPOS • 8 MINUTOS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TRABALHO EM GRUPOS • 8 MINUTOS",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Arial",
+            "color": "#087E8B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TRABALHO EM GRUPOS • 8 MINUTOS",
+              "fontSize": 16,
+              "typeface": "Arial",
+              "color": "#087E8B",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8rex4r2",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        56,
+        72,
+        1130,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Desafio: produza uma evidência e uma explicação",
+      "textPreview": "Desafio: produza uma evidência e uma explicação",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Desafio: produza uma evidência e uma explicação"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Desafio: produza uma evidência e uma explicação",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Desafio: produza uma evidência e uma explicação",
+              "fontSize": 46,
+              "typeface": "Arial",
+              "color": "#10131A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7idozqh",
+      "id": "3",
+      "name": "rule",
+      "bbox": [
+        56,
+        142,
+        1168,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zu9wzu9s",
+      "id": "4",
+      "name": "page-11",
+      "bbox": [
+        1174,
+        656,
+        50,
+        32
+      ],
+      "geometry": "rect",
+      "text": "13",
+      "textPreview": "13",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "13"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "13",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "13",
+              "fontSize": 14,
+              "typeface": "Arial",
+              "color": "#5D6470",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#EEF1F3",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yt0vq98n",
+      "id": "5",
+      "name": "text-kvsdpsd",
+      "bbox": [
+        58,
+        180,
+        342,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Grupo A • Isotérmica",
+      "textPreview": "Grupo A • Isotérmica",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Grupo A • Isotérmica"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Grupo A • Isotérmica",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#16C8D8",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Grupo A • Isotérmica",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#16C8D8",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwre14ry",
+      "id": "6",
+      "name": "image-backing",
+      "bbox": [
+        55,
+        223,
+        348,
+        231
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0A1026",
+      "lineColor": "#0A1026",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/nydsfexo",
+      "id": "21",
+      "bbox": [
+        58,
+        226,
+        342,
+        225
+      ],
+      "geometry": "roundRect",
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.00188,
+        "right": 0,
+        "bottom": 0.00188
+      },
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 6222"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "/ppt/media/image4.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 61086
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image4.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 61086
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nytw3e94",
+      "id": "8",
+      "name": "text-yeilbsy",
+      "bbox": [
+        66,
+        478,
+        326,
+        90
+      ],
+      "geometry": "rect",
+      "text": "Mova V. Esboce P × V.\nExplique por que a curva cai.",
+      "textPreview": "Mova V. Esboce P × V. | Explique por que a curva cai.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Mova V. Esboce P × V."
+          },
+          {
+            "index": 2,
+            "text": "Explique por que a curva cai."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Mova V. Esboce P × V.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Mova V. Esboce P × V.",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#10131A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Explique por que a curva cai.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Explique por que a curva cai.",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#10131A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mx0vu98j",
+      "id": "9",
+      "name": "text-1eanlnu",
+      "bbox": [
+        446,
+        180,
+        342,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Grupo B • Isobárica",
+      "textPreview": "Grupo B • Isobárica",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Grupo B • Isobárica"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Grupo B • Isobárica",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#E95B65",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Grupo B • Isobárica",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#E95B65",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wf2tcnut",
+      "id": "10",
+      "name": "image-backing",
+      "bbox": [
+        443,
+        223,
+        348,
+        231
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0A1026",
+      "lineColor": "#0A1026",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/8zm9ojy9",
+      "id": "22",
+      "bbox": [
+        446,
+        226,
+        342,
+        225
+      ],
+      "geometry": "roundRect",
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.00188,
+        "right": 0,
+        "bottom": 0.00188
+      },
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 6222"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "/ppt/media/image5.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 60725
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image5.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 60725
+      }
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udkbadcn",
+      "id": "12",
+      "name": "text-89glrhe",
+      "bbox": [
+        454,
+        478,
+        326,
+        90
+      ],
+      "geometry": "rect",
+      "text": "Aumente T. Observe V × T.\nExplique a expansão.",
+      "textPreview": "Aumente T. Observe V × T. | Explique a expansão.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Aumente T. Observe V × T."
+          },
+          {
+            "index": 2,
+            "text": "Explique a expansão."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Aumente T. Observe V × T.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Aumente T. Observe V × T.",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#10131A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Explique a expansão.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Explique a expansão.",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#10131A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vets3id8",
+      "id": "13",
+      "name": "text-mn0pupv",
+      "bbox": [
+        834,
+        180,
+        342,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Grupo C • Isocórica",
+      "textPreview": "Grupo C • Isocórica",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Grupo C • Isocórica"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Grupo C • Isocórica",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#3DBB91",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Grupo C • Isocórica",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#3DBB91",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/43mtgnup",
+      "id": "14",
+      "name": "image-backing",
+      "bbox": [
+        831,
+        223,
+        348,
+        231
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0A1026",
+      "lineColor": "#0A1026",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/90vahofe",
+      "id": "23",
+      "bbox": [
+        834,
+        226,
+        342,
+        225
+      ],
+      "geometry": "roundRect",
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.00188,
+        "right": 0,
+        "bottom": 0.00188
+      },
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 6222"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "/ppt/media/image6.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 60636
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image6.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 60636
+      }
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i1kbexcz",
+      "id": "16",
+      "name": "text-uiax9ui",
+      "bbox": [
+        842,
+        478,
+        326,
+        90
+      ],
+      "geometry": "rect",
+      "text": "Aumente T. Observe P × T.\nExplique a pressão maior.",
+      "textPreview": "Aumente T. Observe P × T. | Explique a pressão maior.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Aumente T. Observe P × T."
+          },
+          {
+            "index": 2,
+            "text": "Explique a pressão maior."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Aumente T. Observe P × T.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Aumente T. Observe P × T.",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#10131A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Explique a pressão maior.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Explique a pressão maior.",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#10131A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2tc7id4",
+      "id": "17",
+      "name": "rule",
+      "bbox": [
+        190,
+        594,
+        900,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s7mtk7u1",
+      "id": "18",
+      "name": "text-u1xrmv7",
+      "bbox": [
+        184,
+        614,
+        912,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Entrega: um gráfico + uma frase com partículas + a grandeza constante.",
+      "textPreview": "Entrega: um gráfico + uma frase com partículas + a grandeza constante.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Entrega: um gráfico + uma frase com partículas + a grandeza constante."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Entrega: um gráfico + uma frase com partículas + a grandeza constante.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Arial",
+            "color": "#0A1026",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Entrega: um gráfico + uma frase com partículas + a grandeza constante.",
+              "fontSize": 24,
+              "typeface": "Arial",
+              "color": "#0A1026",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t8vudcvm",
+      "id": "19",
+      "name": "source-footer",
+      "bbox": [
+        56,
+        667,
+        500,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Celestial Lab • aba Transformações",
+      "textPreview": "Celestial Lab • aba Transformações",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Celestial Lab • aba Transformações"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Celestial Lab • aba Transformações",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Arial",
+            "color": "#7A8089",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Celestial Lab • aba Transformações",
+              "fontSize": 13,
+              "typeface": "Arial",
+              "color": "#7A8089"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

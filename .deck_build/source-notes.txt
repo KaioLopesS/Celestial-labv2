@@ -1,0 +1,28 @@
+Communication job
+By the end, first-year high-school students should explain how P, V, T and gas amount are related, test those relationships in Celestial Lab, and connect gas transformations to energy conservation.
+
+Narrative arc
+Everyday question -> microscopic model -> state equation -> guided experiments -> three transformations -> heat/work/internal energy -> first law -> synthesis and exit ticket.
+
+Timing
+Slide timings in speaker notes total 80 minutes: 2 + 4 + 5 + 6 + 4 + 8 + 3 + 8 + 3 + 6 + 10 + 6 + 6 + 5 + 4.
+
+Local product sources
+- C:\Users\User\Desktop\celestial-labv1\simulations\IdealGasSim.tsx
+- C:\Users\User\Desktop\celestial-labv1\LanguageContext.tsx
+- C:\Users\User\Desktop\celestial-labv1\deck_assets\gases-laboratorio.png
+- C:\Users\User\Desktop\celestial-labv1\deck_assets\gases-laboratorio-full.png
+- C:\Users\User\Desktop\celestial-labv1\deck_assets\gases-transformacao-isotermica.png
+- C:\Users\User\Desktop\celestial-labv1\deck_assets\gases-transformacao-isobarica.png
+- C:\Users\User\Desktop\celestial-labv1\deck_assets\gases-transformacao-isocorica.png
+
+Physics sources
+- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law
+- https://openstax.org/books/college-physics-2e/pages/13-4-kinetic-theory-atomic-and-molecular-explanation-of-pressure-and-temperature
+- https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics
+- https://openstax.org/books/college-physics-ap-courses/pages/15-2-the-first-law-of-thermodynamics-and-some-simple-processes
+
+Calculated chart data
+- P x T chart: n = 0.40 mol, V = 6.0 L, R = 8.314 J/(mol K); P = 110.9, 221.7, 332.6 kPa at T = 200, 400, 600 K.
+- P x V chart: n = 0.40 mol, T = 300 K; P = 332.6, 221.7, 166.3, 133.0, 110.9 kPa at V = 3.0, 4.5, 6.0, 7.5, 9.0 L.
+

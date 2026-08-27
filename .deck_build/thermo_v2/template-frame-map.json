@@ -1,0 +1,70 @@
+{
+  "outputSlides": [
+    {"outputSlide":1,"sourceSlide":1,"narrativeRole":"capa da aula","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":2,"sourceSlide":2,"narrativeRole":"problema inicial sobre gases","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":3,"sourceSlide":3,"narrativeRole":"modelo cinetico dos gases","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":4,"sourceSlide":4,"narrativeRole":"variaveis de estado","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":5,"sourceSlide":5,"narrativeRole":"lei dos gases ideais","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":6,"sourceSlide":6,"narrativeRole":"demonstracao no Celestial Lab","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":7,"sourceSlide":7,"narrativeRole":"previsao curta","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":8,"sourceSlide":8,"narrativeRole":"resultado do simulador","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":9,"sourceSlide":9,"narrativeRole":"segunda demonstracao no Celestial Lab","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":10,"sourceSlide":10,"narrativeRole":"previsao curta","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":11,"sourceSlide":11,"narrativeRole":"resultado do simulador","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":12,"sourceSlide":12,"narrativeRole":"calculo rapido com gases","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":13,"sourceSlide":13,"narrativeRole":"fechamento da parte de gases","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":14,"sourceSlide":1,"narrativeRole":"divisor visual da parte de termodinamica","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/utg3698n","reason":"remover rotulo superior e diferenciar a nova secao"},
+      {"action":"rewrite","sourceElementId":"sh/547294r6","reason":"titulo da secao"},
+      {"action":"rewrite","sourceElementId":"sh/k3yl0zql","reason":"subtitulo da secao"},
+      {"action":"rewrite","sourceElementId":"sh/65g3298r","reason":"frase de transicao"},
+      {"action":"replace","sourceElementId":"im/jqxw72dk","reason":"mostrar o sistema da animacao 1"}
+    ]},
+    {"outputSlide":15,"sourceSlide":14,"narrativeRole":"definicao do sistema e das transferencias de energia","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/xc7eds76","reason":"foco no sistema da animacao"},
+      {"action":"rewrite","sourceElementId":"sh/5grehs7i","reason":"definicao curta de Q"},
+      {"action":"rewrite","sourceElementId":"sh/a1wze9g7","reason":"introduzir delta U"},
+      {"action":"rewrite","sourceElementId":"sh/kre1k3y9","reason":"definicao curta de W"},
+      {"action":"rewrite","sourceElementId":"sh/y5wjitgj","reason":"sintese das tres grandezas"}
+    ]},
+    {"outputSlide":16,"sourceSlide":15,"narrativeRole":"primeira lei e convencao de sinais","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/547mhg3m","reason":"foco em Q delta U e W"},
+      {"action":"rewrite","sourceElementId":"sh/t87ml0ji","reason":"leitura verbal da equacao"},
+      {"action":"rewrite","sourceElementId":"sh/m9c3e1kn","reason":"sinal de Q"},
+      {"action":"rewrite","sourceElementId":"sh/hsvat0fa","reason":"sinal de W sem transformacoes"},
+      {"action":"rewrite","sourceElementId":"sh/5wvax0f6","reason":"conservacao de energia"},
+      {"action":"rewrite","sourceElementId":"sh/it4rm5wv","reason":"explicitar convencao adotada"}
+    ]},
+    {"outputSlide":17,"sourceSlide":3,"narrativeRole":"reproducao orientada da animacao 1","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/cza94vmx","reason":"titulo da animacao 1"},
+      {"action":"replace","sourceElementId":"im/ulcnalwf","reason":"quadro da animacao 1"},
+      {"action":"rewrite","sourceElementId":"sh/pcjqtg36","reason":"instrucao de observacao"},
+      {"action":"rewrite","sourceElementId":"sh/m5cra54z","reason":"primeira observacao"},
+      {"action":"rewrite","sourceElementId":"sh/n2l4fq98","reason":"pergunta durante a animacao"},
+      {"action":"rewrite","sourceElementId":"sh/m1c3mlsn","reason":"pergunta curta"},
+      {"action":"rewrite","sourceElementId":"sh/83ulovat","reason":"fechamento conceitual"}
+    ]},
+    {"outputSlide":18,"sourceSlide":16,"narrativeRole":"exercicio de uma etapa sobre a primeira lei","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/8z2h8bq1","reason":"titulo do exercicio"},
+      {"action":"rewrite","sourceElementId":"sh/nqlg3a5k","reason":"tempo curto para tentativa"}
+    ]},
+    {"outputSlide":19,"sourceSlide":3,"narrativeRole":"reproducao orientada da animacao 2","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/cza94vmx","reason":"titulo da animacao 2"},
+      {"action":"replace","sourceElementId":"im/ulcnalwf","reason":"quadro da compressao"},
+      {"action":"rewrite","sourceElementId":"sh/pcjqtg36","reason":"instrucao de observacao"},
+      {"action":"rewrite","sourceElementId":"sh/m5cra54z","reason":"pergunta sobre o trabalho"},
+      {"action":"rewrite","sourceElementId":"sh/n2l4fq98","reason":"convencao de sinais"},
+      {"action":"rewrite","sourceElementId":"sh/m1c3mlsn","reason":"significado de W negativo"},
+      {"action":"rewrite","sourceElementId":"sh/83ulovat","reason":"conclusao com Q zero"}
+    ]},
+    {"outputSlide":20,"sourceSlide":18,"narrativeRole":"bilhete de saida da aula","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/wrelszu9","reason":"titulo do fechamento"},
+      {"action":"rewrite","sourceElementId":"sh/rip4retw","reason":"pergunta conceitual sobre Q delta U e W"},
+      {"action":"rewrite","sourceElementId":"sh/1cr2tg72","reason":"conta curta de compressao"},
+      {"action":"rewrite","sourceElementId":"sh/7mpknmp0","reason":"orientacao curta"}
+    ]}
+  ],
+  "omittedSourceSlides": [
+    {"sourceSlide":17,"reason":"retirado porque apresentava transformacoes gasosas na parte da primeira lei, fora do novo escopo"}
+  ]
+}

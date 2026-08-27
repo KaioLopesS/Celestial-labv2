@@ -1,0 +1,2 @@
+Slides 1–13 preserve the existing source notes.
+Thermodynamics references: Khan Academy First Law article, the attached Manim script for animation 1, and the revised compression animation 2.

@@ -1,0 +1,6 @@
+- Slides 8, 11 e 16: duplicação intencional do slide 15 para criar exercícios-relâmpago, preservando a geometria e a tipografia herdadas.
+- Slides 8–18: atualização intencional do marcador de página por causa das três inserções.
+- Notas do professor: redistribuição de seis minutos das atividades existentes para os três exercícios, mantendo a duração total de 80 minutos.
+- Slide 15: forma algébrica alterada para Q = ΔU + W, conforme a convenção solicitada; a física e os sinais permanecem equivalentes.
+- Foi produzida uma animação Manim de 15,8 segundos para ser reproduzida após o slide 15, dentro do tempo já reservado ao conceito.
+- A inspeção oficial exigia o utilitário unzip, ausente no Windows deste ambiente; foi usada uma cópia local do inspetor com tar.exe apenas para leitura do pacote PPTX. Nenhum arquivo da skill foi alterado.

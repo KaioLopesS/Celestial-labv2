@@ -1,0 +1,6 @@
+[Sources]
+- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law
+- https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics
+- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx
+
+As três novas questões usam relações já apresentadas no deck: P/T constante em processo isocórico, P·V constante em processo isotérmico e ΔU = Q − W. Os resultados foram calculados antes do design: 150 kPa, 60 kPa e +110 J.

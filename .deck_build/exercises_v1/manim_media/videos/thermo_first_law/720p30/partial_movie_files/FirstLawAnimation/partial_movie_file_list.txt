@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/User/Desktop/celestial-labv1/.deck_build/exercises_v1/manim_media/videos/thermo_first_law/720p30/partial_movie_files/FirstLawAnimation/1132743121_2199242778_223132457.mp4'
+file 'file:C:/Users/User/Desktop/celestial-labv1/.deck_build/exercises_v1/manim_media/videos/thermo_first_law/720p30/partial_movie_files/FirstLawAnimation/354791952_1171266329_364535107.mp4'
+file 'file:C:/Users/User/Desktop/celestial-labv1/.deck_build/exercises_v1/manim_media/videos/thermo_first_law/720p30/partial_movie_files/FirstLawAnimation/354791952_3201849554_1703951826.mp4'
+file 'file:C:/Users/User/Desktop/celestial-labv1/.deck_build/exercises_v1/manim_media/videos/thermo_first_law/720p30/partial_movie_files/FirstLawAnimation/354791952_3066905246_2679960705.mp4'
+file 'file:C:/Users/User/Desktop/celestial-labv1/.deck_build/exercises_v1/manim_media/videos/thermo_first_law/720p30/partial_movie_files/FirstLawAnimation/354791952_1095988586_3276697249.mp4'
+file 'file:C:/Users/User/Desktop/celestial-labv1/.deck_build/exercises_v1/manim_media/videos/thermo_first_law/720p30/partial_movie_files/FirstLawAnimation/354791952_1335534370_3054936981.mp4'
+file 'file:C:/Users/User/Desktop/celestial-labv1/.deck_build/exercises_v1/manim_media/videos/thermo_first_law/720p30/partial_movie_files/FirstLawAnimation/354791952_1639322063_3808638734.mp4'
+file 'file:C:/Users/User/Desktop/celestial-labv1/.deck_build/exercises_v1/manim_media/videos/thermo_first_law/720p30/partial_movie_files/FirstLawAnimation/354791952_1677483739_650641054.mp4'
+file 'file:C:/Users/User/Desktop/celestial-labv1/.deck_build/exercises_v1/manim_media/videos/thermo_first_law/720p30/partial_movie_files/FirstLawAnimation/354791952_3645951009_1425191474.mp4'
+file 'file:C:/Users/User/Desktop/celestial-labv1/.deck_build/exercises_v1/manim_media/videos/thermo_first_law/720p30/partial_movie_files/FirstLawAnimation/354791952_3424533462_4257080012.mp4'
+file 'file:C:/Users/User/Desktop/celestial-labv1/.deck_build/exercises_v1/manim_media/videos/thermo_first_law/720p30/partial_movie_files/FirstLawAnimation/354791952_723325388_1565926385.mp4'
+file 'file:C:/Users/User/Desktop/celestial-labv1/.deck_build/exercises_v1/manim_media/videos/thermo_first_law/720p30/partial_movie_files/FirstLawAnimation/354791952_2217825475_4186632378.mp4'

@@ -1,0 +1,959 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/nndfnh",
+    "id": "nndfnh",
+    "slide": 10,
+    "layoutId": "51739a70-359a-4d48-8ca3-7b62dddacad0",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9869942b-8299-4d16-85ba-1b5c8d83ee88",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "51739a70-359a-4d48-8ca3-7b62dddacad0",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9869942b-8299-4d16-85ba-1b5c8d83ee88",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9869942b-8299-4d16-85ba-1b5c8d83ee88",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m94nutkr",
+      "id": "1",
+      "name": "eyebrow",
+      "bbox": [
+        56,
+        34,
+        650,
+        24
+      ],
+      "geometry": "rect",
+      "text": "MAPA DAS TRANSFORMAÇÕES",
+      "textPreview": "MAPA DAS TRANSFORMAÇÕES",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Arial",
+        "color": "#087E8B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MAPA DAS TRANSFORMAÇÕES"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MAPA DAS TRANSFORMAÇÕES",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Arial",
+            "color": "#087E8B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MAPA DAS TRANSFORMAÇÕES",
+              "fontSize": 16,
+              "typeface": "Arial",
+              "color": "#087E8B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cf65832",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        56,
+        72,
+        1130,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Cada transformação fixa uma grandeza",
+      "textPreview": "Cada transformação fixa uma grandeza",
+      "resolvedFontSize": 46,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 46,
+        "typeface": "Arial",
+        "color": "#10131A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Cada transformação fixa uma grandeza"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cada transformação fixa uma grandeza",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cada transformação fixa uma grandeza",
+              "fontSize": 46,
+              "typeface": "Arial",
+              "color": "#10131A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bm5w32h",
+      "id": "3",
+      "name": "rule",
+      "bbox": [
+        56,
+        142,
+        1168,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zmdozel0",
+      "id": "4",
+      "name": "page-10",
+      "bbox": [
+        1174,
+        656,
+        50,
+        32
+      ],
+      "geometry": "rect",
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Arial",
+        "color": "#5D6470",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10",
+              "fontSize": 14,
+              "typeface": "Arial",
+              "color": "#5D6470",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#EEF1F3",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/z2xsjexg",
+      "id": "5",
+      "bbox": [
+        56,
+        188,
+        1168,
+        386
+      ],
+      "text": "Transformação | Constante | Controle livre | Gráfico no Celestial | Relação\nIsotérmica | T | Volume | P × V | P·V = constante\nIsobárica | P | Temperatura | V × T | V/T = constante\nIsocórica | V | Temperatura | P × T | P/T = constante",
+      "textPreview": "Transformação | Constante | Controle livre | Gráfico no Celestial | Relação | Isotérmica | T | Volume | P × V | P·V = constante | Isobári...",
+      "rows": 4,
+      "cols": 5,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            56,
+            188,
+            220,
+            96.5
+          ],
+          "text": "Transformação",
+          "textPreview": "Transformação",
+          "fillColor": "#0A1026",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Transformação",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Transformação"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            276,
+            188,
+            170,
+            96.5
+          ],
+          "text": "Constante",
+          "textPreview": "Constante",
+          "fillColor": "#0A1026",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Constante",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Constante"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            446,
+            188,
+            260,
+            96.5
+          ],
+          "text": "Controle livre",
+          "textPreview": "Controle livre",
+          "fillColor": "#0A1026",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Controle livre",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Controle livre"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            706,
+            188,
+            250,
+            96.5
+          ],
+          "text": "Gráfico no Celestial",
+          "textPreview": "Gráfico no Celestial",
+          "fillColor": "#0A1026",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Gráfico no Celestial",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Gráfico no Celestial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "column": 5,
+          "bbox": [
+            956,
+            188,
+            268,
+            96.5
+          ],
+          "text": "Relação",
+          "textPreview": "Relação",
+          "fillColor": "#0A1026",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Relação",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Relação"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            56,
+            284.5,
+            220,
+            96.5
+          ],
+          "text": "Isotérmica",
+          "textPreview": "Isotérmica",
+          "fillColor": "#DDF8FB",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Isotérmica",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Isotérmica"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            276,
+            284.5,
+            170,
+            96.5
+          ],
+          "text": "T",
+          "textPreview": "T",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "T",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            446,
+            284.5,
+            260,
+            96.5
+          ],
+          "text": "Volume",
+          "textPreview": "Volume",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Volume",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Volume"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            706,
+            284.5,
+            250,
+            96.5
+          ],
+          "text": "P × V",
+          "textPreview": "P × V",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "P × V",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "P × V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 2,
+          "column": 5,
+          "bbox": [
+            956,
+            284.5,
+            268,
+            96.5
+          ],
+          "text": "P·V = constante",
+          "textPreview": "P·V = constante",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "P·V = constante",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "P·V = constante"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            56,
+            381,
+            220,
+            96.5
+          ],
+          "text": "Isobárica",
+          "textPreview": "Isobárica",
+          "fillColor": "#FDE8EA",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Isobárica",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Isobárica"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            276,
+            381,
+            170,
+            96.5
+          ],
+          "text": "P",
+          "textPreview": "P",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "P",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            446,
+            381,
+            260,
+            96.5
+          ],
+          "text": "Temperatura",
+          "textPreview": "Temperatura",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Temperatura",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Temperatura"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            706,
+            381,
+            250,
+            96.5
+          ],
+          "text": "V × T",
+          "textPreview": "V × T",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "V × T",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "V × T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 3,
+          "column": 5,
+          "bbox": [
+            956,
+            381,
+            268,
+            96.5
+          ],
+          "text": "V/T = constante",
+          "textPreview": "V/T = constante",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "V/T = constante",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "V/T = constante"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            56,
+            477.5,
+            220,
+            96.5
+          ],
+          "text": "Isocórica",
+          "textPreview": "Isocórica",
+          "fillColor": "#E4F6EF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Isocórica",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Isocórica"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            276,
+            477.5,
+            170,
+            96.5
+          ],
+          "text": "V",
+          "textPreview": "V",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "V",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            446,
+            477.5,
+            260,
+            96.5
+          ],
+          "text": "Temperatura",
+          "textPreview": "Temperatura",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Temperatura",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Temperatura"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            706,
+            477.5,
+            250,
+            96.5
+          ],
+          "text": "P × T",
+          "textPreview": "P × T",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "P × T",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "P × T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "row": 4,
+          "column": 5,
+          "bbox": [
+            956,
+            477.5,
+            268,
+            96.5
+          ],
+          "text": "P/T = constante",
+          "textPreview": "P/T = constante",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "P/T = constante",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "P/T = constante"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l8v61o36",
+      "id": "6",
+      "name": "text-7qxhztu",
+      "bbox": [
+        170,
+        606,
+        940,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Regra de ouro: identifique primeiro o que permanece constante.",
+      "textPreview": "Regra de ouro: identifique primeiro o que permanece constante.",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Arial",
+        "color": "#087E8B",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Regra de ouro: identifique primeiro o que permanece constante."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Regra de ouro: identifique primeiro o que permanece constante.",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Arial",
+            "color": "#087E8B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Regra de ouro: identifique primeiro o que permanece constante.",
+              "fontSize": 27,
+              "typeface": "Arial",
+              "color": "#087E8B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/knm5sj2l",
+      "id": "7",
+      "name": "source-footer",
+      "bbox": [
+        56,
+        667,
+        500,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Modelo de gás ideal",
+      "textPreview": "Modelo de gás ideal",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Arial",
+        "color": "#7A8089",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Modelo de gás ideal"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Modelo de gás ideal",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Arial",
+            "color": "#7A8089",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Modelo de gás ideal",
+              "fontSize": 13,
+              "typeface": "Arial",
+              "color": "#7A8089",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

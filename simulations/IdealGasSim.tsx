@@ -15,9 +15,9 @@ type TransformationType = 'isothermal' | 'isobaric' | 'isochoric';
 
 const R_CONSTANT = 8.314; // J/(mol·K)
 
-// Converte volume interno (20-100) para litros (2-10)
-const volumeToLiters = (v: number): number => 2 + (v - 20) * (8 / 80);
-const litersToInternal = (L: number): number => 20 + (L - 2) * (80 / 8);
+// Converte volume interno (20-100) para litros (2-20)
+const volumeToLiters = (v: number): number => 2 + (v - 20) * (18 / 80);
+const litersToInternal = (L: number): number => 20 + (L - 2) * (80 / 18);
 
 export const IdealGasSim: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -191,9 +191,11 @@ export const IdealGasSim: React.FC = () => {
         }
       }
 
+      const isIsobaric = activeTabRef.current === 'transformations' && transTypeRef.current === 'isobaric';
       const n = numParticles / 100;
-      const V_m3 = volumeToLiters(volume) / 1000;
-      const P = (n * R_CONSTANT * temperature) / V_m3;
+      const P = (isIsobaric && transRefState.current.P > 0)
+        ? transRefState.current.P
+        : (n * R_CONSTANT * temperature) / (volumeToLiters(volume) / 1000);
 
       const now = performance.now();
       if (now - lastPressureTime > 200) {
@@ -323,21 +325,7 @@ export const IdealGasSim: React.FC = () => {
         ctx.shadowBlur = 0;
       }
 
-      // Rótulos inferiores dentro do canvas de partículas
-      const vL = volumeToLiters(volume);
-      ctx.fillStyle = 'rgba(255,255,255,0.5)';
-      ctx.font = '10px monospace';
-      ctx.textAlign = 'left';
-      const maxW = containerRight - CONTAINER_LEFT - 10;
-      const stepX = Math.max(65, maxW / 3);
-      ctx.fillText(`P: ${(P / 1000).toFixed(1)} kPa`, CONTAINER_LEFT + 2, containerBottom + 18);
-      ctx.fillText(`V: ${vL.toFixed(1)} L`, CONTAINER_LEFT + 2 + stepX, containerBottom + 18);
-      ctx.fillText(`T: ${temperature} K`, CONTAINER_LEFT + 2 + stepX * 2, containerBottom + 18);
 
-      ctx.fillStyle = 'rgba(0, 240, 255, 0.6)';
-      ctx.font = 'bold 12px monospace';
-      ctx.textAlign = 'center';
-      ctx.fillText('PV = nRT', (CONTAINER_LEFT + containerRight) / 2, containerBottom + 38);
 
       animFrameRef.current = requestAnimationFrame(draw);
     };
@@ -473,7 +461,12 @@ export const IdealGasSim: React.FC = () => {
       if (transType === 'isothermal') {
         initV = 20; // 2.0 L (mín)
         setVolume(20);
-      } else if (transType === 'isobaric' || transType === 'isochoric') {
+      } else if (transType === 'isobaric') {
+        initT = 100; // 100 K (mín)
+        initV = 20; // 2.0 L (mín)
+        setTemperature(100);
+        setVolume(20);
+      } else if (transType === 'isochoric') {
         initT = 100; // 100 K (mín)
         setTemperature(100);
       }
@@ -483,6 +476,7 @@ export const IdealGasSim: React.FC = () => {
       const V_m3 = V_L / 1000;
       const P = (n * R_CONSTANT * initT) / V_m3;
       transRefState.current = { P, V: V_L, T: initT };
+      setPressure(P);
       setGraphPath([]); // Zerado inicialmente
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -495,12 +489,12 @@ export const IdealGasSim: React.FC = () => {
     if (P_ref === 0) return;
     const n = numParticles / 100;
     const V_L = (n * R_CONSTANT * temperature * 1000) / P_ref;
-    const clamped = Math.max(2, Math.min(10, V_L));
-    const internal = Math.round(litersToInternal(clamped));
-    if (internal !== volume) {
+    const clamped = Math.max(2, Math.min(20, V_L));
+    const internal = litersToInternal(clamped);
+    if (Math.abs(internal - volume) > 0.01) {
       isAutoRef.current = true;
       setVolume(internal);
-      setTimeout(() => { isAutoRef.current = false; }, 50);
+      setTimeout(() => { isAutoRef.current = false; }, 10);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [temperature, activeTab, transType]);
@@ -815,7 +809,12 @@ export const IdealGasSim: React.FC = () => {
     if (transType === 'isothermal') {
       initV = 20; // 2.0 L (min)
       setVolume(20);
-    } else if (transType === 'isobaric' || transType === 'isochoric') {
+    } else if (transType === 'isobaric') {
+      initT = 100; // 100 K (min)
+      initV = 20; // 2.0 L (min)
+      setTemperature(100);
+      setVolume(20);
+    } else if (transType === 'isochoric') {
       initT = 100; // 100 K (min)
       setTemperature(100);
     }
@@ -825,6 +824,7 @@ export const IdealGasSim: React.FC = () => {
     const V_m3 = V_L / 1000;
     const P = (n * R_CONSTANT * initT) / V_m3;
     transRefState.current = { P, V: V_L, T: initT };
+    setPressure(P);
     setGraphPath([]); // Zerado no reset
   };
 
@@ -1063,7 +1063,7 @@ export const IdealGasSim: React.FC = () => {
                   onChange={(e) => setVolume(parseInt(e.target.value))}
                   className="w-full accent-blue-400 h-1.5 bg-gray-700 rounded-lg appearance-none cursor-pointer"
                 />
-                <div className="flex justify-between text-[9px] text-gray-600"><span>2.0 L</span><span>10.0 L</span></div>
+                <div className="flex justify-between text-[9px] text-gray-600"><span>2.0 L</span><span>20.0 L</span></div>
               </div>
 
               {/* Partículas */}
@@ -1162,7 +1162,7 @@ export const IdealGasSim: React.FC = () => {
                 disabled={!isVolFree}
                 className="w-full accent-blue-400 h-1.5 bg-gray-700 rounded-lg appearance-none cursor-pointer disabled:cursor-not-allowed"
               />
-              <div className="flex justify-between text-[9px] text-gray-600"><span>2.0 L</span><span>10.0 L</span></div>
+              <div className="flex justify-between text-[9px] text-gray-600"><span>2.0 L</span><span>20.0 L</span></div>
             </div>
 
             {/* Leitura do estado atual */}

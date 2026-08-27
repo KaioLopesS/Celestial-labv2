@@ -1,0 +1,10 @@
+Template audit — source deck
+
+Source: Aula_Gases_Ideais_Termodinamica_80min_exercicios_simplificados_sem_rotulos_e_rodapes.pptx
+Format: 16:9, 1280 x 720 px
+Slides: 18
+Theme: navy background, coral/gold/green accents, strong white titles, thin rules, rounded image frames.
+Typography: large serif display titles and compact sans-serif body text.
+Reusable layouts selected: cover (source 1), image + explanation (source 3), system energy flow (source 14), first-law equation/signs (source 15), three-step exercise (source 16), exit ticket (source 18).
+Preservation: slides 1–13 remain unchanged. Source slide 17 is omitted because it discusses thermodynamic transformations in the First Law section.
+User-requested cleanup: upper eyebrow labels and source footers remain blank on the revised slides.

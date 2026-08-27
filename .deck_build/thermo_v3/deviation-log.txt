@@ -1,0 +1,4 @@
+Slides 17 and 18 from the source deck were omitted to reduce the final deck from 20 to 18 slides.
+The source slide 14 still provides the section-cover layout, but its image is repositioned within the inherited navy backing to fit a 16:9 animated GIF.
+The source slide 16 retains the equation and positive sign rows; its two inherited callout text areas now communicate Q < 0 and W < 0.
+The source slide 19 is retained as output slide 17, with its still image replaced by the revised embedded animation and its final Q = 0 / ΔU = −W statement removed.

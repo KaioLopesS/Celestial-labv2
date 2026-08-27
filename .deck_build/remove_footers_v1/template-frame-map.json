@@ -1,0 +1,23 @@
+{
+  "outputSlides": [
+    {"outputSlide":1,"sourceSlide":1,"narrativeRole":"preserved title slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":2,"sourceSlide":2,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/mtwrmxg7","reason":"clear requested source-footer text"}]},
+    {"outputSlide":3,"sourceSlide":3,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/v6l4jq94","reason":"clear requested source-footer text"}]},
+    {"outputSlide":4,"sourceSlide":4,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/2xkrih8b","reason":"clear requested source-footer text"}]},
+    {"outputSlide":5,"sourceSlide":5,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/i54fmlc7","reason":"clear requested source-footer text"}]},
+    {"outputSlide":6,"sourceSlide":6,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/i54bylor","reason":"clear requested source-footer text"}]},
+    {"outputSlide":7,"sourceSlide":7,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/a9ojq5kz","reason":"clear requested source-footer text"}]},
+    {"outputSlide":8,"sourceSlide":8,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/1k7edwv2","reason":"clear requested source-footer text"}]},
+    {"outputSlide":9,"sourceSlide":9,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/bml0buxs","reason":"clear requested source-footer text"}]},
+    {"outputSlide":10,"sourceSlide":10,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/d87uxg3m","reason":"clear requested source-footer text"}]},
+    {"outputSlide":11,"sourceSlide":11,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/1cfa58zi","reason":"clear requested source-footer text"}]},
+    {"outputSlide":12,"sourceSlide":12,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/sb2lcnmd","reason":"clear requested source-footer text"}]},
+    {"outputSlide":13,"sourceSlide":13,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/kjmxsfm1","reason":"clear requested source-footer text"}]},
+    {"outputSlide":14,"sourceSlide":14,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/z650byxo","reason":"clear requested source-footer text"}]},
+    {"outputSlide":15,"sourceSlide":15,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/judsvqxg","reason":"clear requested source-footer text"}]},
+    {"outputSlide":16,"sourceSlide":16,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/2pcfa5oz","reason":"clear requested source-footer text"}]},
+    {"outputSlide":17,"sourceSlide":17,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/snedsvml","reason":"clear requested source-footer text"}]},
+    {"outputSlide":18,"sourceSlide":18,"narrativeRole":"lesson slide without footer comment","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/6lg3e18f","reason":"clear requested source-footer text"}]}
+  ],
+  "omittedSourceSlides": []
+}

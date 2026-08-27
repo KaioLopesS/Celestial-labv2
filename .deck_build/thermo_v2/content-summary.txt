@@ -1,0 +1,12 @@
+Parte 1 — Gases ideais (slides 1–13): preservada, com condução pelo professor no Celestial Lab e exercícios curtos.
+
+Parte 2 — Termodinâmica (slides 14–20):
+14. Divisor visual: Termodinâmica — calor, energia interna e trabalho.
+15. O gás dentro do pistão é o sistema; introdução de Q, ΔU e W.
+16. Primeira Lei na forma Q = ΔU + W e convenção adotada: W é o trabalho realizado pelo gás.
+17. Animação 1: calor entra; parte da energia altera ΔU e parte aparece como W.
+18. Exercício curto: Q = 100 J, W = 40 J, determinar ΔU.
+19. Animação 2: pistão comprime o gás; W < 0 e, com Q = 0, ΔU = −W > 0.
+20. Saída: uma pergunta de gases, uma pergunta conceitual e uma conta de compressão.
+
+Tempo total: 80 min. Gases: 58 min. Termodinâmica: 22 min.

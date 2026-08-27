@@ -1,0 +1,60 @@
+{
+  "outputSlides": [
+    {"outputSlide":1,"sourceSlide":1,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":2,"sourceSlide":2,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":3,"sourceSlide":3,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":4,"sourceSlide":4,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":5,"sourceSlide":5,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":6,"sourceSlide":6,"narrativeRole":"experiment with updated visible timing","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/i54bylor","reason":"visible activity timing"}]},
+    {"outputSlide":7,"sourceSlide":7,"narrativeRole":"preserved lesson slide","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":8,"sourceSlide":15,"narrativeRole":"calculation checkpoint for isochoric relation","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/it4rm5wv","reason":"exercise eyebrow"},
+      {"action":"rewrite","sourceElementId":"sh/547mhg3m","reason":"exercise title"},
+      {"action":"rewrite","sourceElementId":"sh/76p4jqls","reason":"page marker"},
+      {"action":"rewrite","sourceElementId":"sh/t87ml0ji","reason":"given data"},
+      {"action":"rewrite","sourceElementId":"sh/m9c3e1kn","reason":"calculation prompt"},
+      {"action":"rewrite","sourceElementId":"sh/upkrilwj","reason":"simulator check"},
+      {"action":"rewrite","sourceElementId":"sh/4vm9ovel","reason":"exercise routine"},
+      {"action":"rewrite","sourceElementId":"sh/5wvax0f6","reason":"activity footer"}
+    ]},
+    {"outputSlide":9,"sourceSlide":8,"narrativeRole":"experiment with updated timing and page marker","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/ri9g7uhw","reason":"page marker"},
+      {"action":"rewrite","sourceElementId":"sh/zipwbmdc","reason":"visible activity timing"}
+    ]},
+    {"outputSlide":10,"sourceSlide":9,"narrativeRole":"preserve conclusion with updated page marker","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/nex4jq5k","reason":"page marker"}]},
+    {"outputSlide":11,"sourceSlide":15,"narrativeRole":"calculation checkpoint for isothermal relation","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/it4rm5wv","reason":"exercise eyebrow"},
+      {"action":"rewrite","sourceElementId":"sh/547mhg3m","reason":"exercise title"},
+      {"action":"rewrite","sourceElementId":"sh/76p4jqls","reason":"page marker"},
+      {"action":"rewrite","sourceElementId":"sh/t87ml0ji","reason":"given data"},
+      {"action":"rewrite","sourceElementId":"sh/m9c3e1kn","reason":"calculation prompt"},
+      {"action":"rewrite","sourceElementId":"sh/upkrilwj","reason":"simulator check"},
+      {"action":"rewrite","sourceElementId":"sh/4vm9ovel","reason":"exercise routine"},
+      {"action":"rewrite","sourceElementId":"sh/5wvax0f6","reason":"activity footer"}
+    ]},
+    {"outputSlide":12,"sourceSlide":10,"narrativeRole":"preserve transformation map with updated page marker","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/zelojyl8","reason":"page marker"}]},
+    {"outputSlide":13,"sourceSlide":11,"narrativeRole":"group challenge with updated timing and page marker","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/n69grmpw","reason":"page marker"},
+      {"action":"rewrite","sourceElementId":"sh/tsnip0ny","reason":"visible activity timing"}
+    ]},
+    {"outputSlide":14,"sourceSlide":12,"narrativeRole":"preserve thermodynamic system with updated page marker","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/ra943il8","reason":"page marker"}]},
+    {"outputSlide":15,"sourceSlide":13,"narrativeRole":"first law expressed as heat distribution","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/o3i5w3ad","reason":"page marker"},
+      {"action":"rewrite","sourceElementId":"sh/p4r6p8by","reason":"use Q = delta U + W convention"},
+      {"action":"rewrite","sourceElementId":"sh/21gnuts7","reason":"explain the energy balance"}
+    ]},
+    {"outputSlide":16,"sourceSlide":15,"narrativeRole":"calculation checkpoint for first law","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/it4rm5wv","reason":"exercise eyebrow"},
+      {"action":"rewrite","sourceElementId":"sh/547mhg3m","reason":"exercise title"},
+      {"action":"rewrite","sourceElementId":"sh/76p4jqls","reason":"page marker"},
+      {"action":"rewrite","sourceElementId":"sh/t87ml0ji","reason":"given data"},
+      {"action":"rewrite","sourceElementId":"sh/m9c3e1kn","reason":"calculation prompt"},
+      {"action":"rewrite","sourceElementId":"sh/upkrilwj","reason":"sign interpretation"},
+      {"action":"rewrite","sourceElementId":"sh/4vm9ovel","reason":"exercise routine"},
+      {"action":"rewrite","sourceElementId":"sh/5wvax0f6","reason":"activity footer"}
+    ]},
+    {"outputSlide":17,"sourceSlide":14,"narrativeRole":"preserve energy synthesis with updated page marker","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/jepwf2pc","reason":"page marker"}]},
+    {"outputSlide":18,"sourceSlide":15,"narrativeRole":"preserve exit ticket with updated page marker","reuseMode":"duplicate-slide","editTargets":[{"action":"rewrite","sourceElementId":"sh/76p4jqls","reason":"page marker"}]}
+  ],
+  "omittedSourceSlides": []
+}

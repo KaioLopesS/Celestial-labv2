@@ -1,0 +1,27 @@
+Deck-fonte: Aula_Gases_Ideais_Termodinamica_80min.pptx
+Formato: 1280 × 720 px, 16:9, 15 slides.
+
+Estrutura visual
+- Fundo branco; títulos em Arial negrito; chamadas de seção em teal.
+- Linha horizontal fina abaixo do título na maioria dos slides.
+- Rodapé de fonte/contexto no canto inferior esquerdo e marcador de página cinza no canto inferior direito.
+- Paleta dominante: teal #087E8B, azul #3D8BFF, laranja #F58A3D, coral #F05B64, verde #36B88C e azul-marinho #0A1026.
+- Layout de atividade individual do slide 15: título, três linhas numeradas e faixa escura de instrução. É o padrão mais adequado para exercícios-relâmpago.
+
+Estrutura herdada
+- Um master e um layout preservados; as camadas herdadas não contêm elementos visíveis.
+- Os elementos de conteúdo são objetos editáveis locais dos slides.
+- Não foram encontrados placeholders estruturais vazios no inventário renderizado/layout.
+
+Contrato de inserção
+- Duplicar todos os slides existentes para preservar a sequência.
+- Duplicar o slide 15 três vezes para os exercícios de cálculo.
+- Editar somente as caixas de texto herdadas mapeadas; manter tipografia, posições, linhas, etiquetas 01/02/03, faixa de encerramento e rodapé.
+- Atualizar os marcadores de página após as inserções.
+- Preservar imagens, gráficos, tabelas, master, layout, tema e notas de fontes.
+
+Comunicação
+Ao final, estudantes do 1º ano devem calcular relações simples de gases e energia porque os números confirmam as tendências observadas no Celestial Lab.
+
+Arco atualizado
+Prever → observar → reconhecer a relação → calcular → conferir no simulador → aplicar à energia.

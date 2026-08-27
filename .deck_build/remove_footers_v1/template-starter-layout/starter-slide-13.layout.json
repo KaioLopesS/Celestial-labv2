@@ -1,0 +1,1089 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/8kp282",
+    "id": "8kp282",
+    "slide": 13,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Calibri",
+      "Calibri Light"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sryt4fi1",
+      "id": "20",
+      "name": "eyebrow",
+      "bbox": [
+        56,
+        34,
+        650,
+        24
+      ],
+      "geometry": "rect",
+      "text": "TESTE COLETIVO • 8 MINUTOS",
+      "textPreview": "TESTE COLETIVO • 8 MINUTOS",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TESTE COLETIVO • 8 MINUTOS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TESTE COLETIVO • 8 MINUTOS",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Arial",
+            "color": "#087E8B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TESTE COLETIVO • 8 MINUTOS",
+              "fontSize": 16,
+              "typeface": "Arial",
+              "color": "#087E8B",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9s3u1cn",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        56,
+        72,
+        1130,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Três previsões; três testes no Celestial Lab",
+      "textPreview": "Três previsões; três testes no Celestial Lab",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Três previsões; três testes no Celestial Lab"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Três previsões; três testes no Celestial Lab",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Três previsões; três testes no Celestial Lab",
+              "fontSize": 46,
+              "typeface": "Arial",
+              "color": "#10131A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/va1k36d8",
+      "id": "3",
+      "name": "rule",
+      "bbox": [
+        56,
+        142,
+        1168,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87alsrux",
+      "id": "4",
+      "name": "page-11",
+      "bbox": [
+        1174,
+        656,
+        50,
+        32
+      ],
+      "geometry": "rect",
+      "text": "13",
+      "textPreview": "13",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "13"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "13",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "13",
+              "fontSize": 14,
+              "typeface": "Arial",
+              "color": "#5D6470",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#EEF1F3",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/98j21wvi",
+      "id": "5",
+      "name": "text-kvsdpsd",
+      "bbox": [
+        58,
+        180,
+        342,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Isotérmica",
+      "textPreview": "Isotérmica",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Isotérmica"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Isotérmica",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#16C8D8",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Isotérmica",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#16C8D8",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mls3q1wr",
+      "id": "6",
+      "name": "image-backing",
+      "bbox": [
+        55,
+        223,
+        348,
+        231
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0A1026",
+      "lineColor": "#0A1026",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/uh0zi9on",
+      "id": "21",
+      "bbox": [
+        58,
+        226,
+        342,
+        225
+      ],
+      "geometry": "roundRect",
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.00188,
+        "right": 0,
+        "bottom": 0.00188
+      },
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 6222"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "/ppt/media/image4.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 61086
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image4.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 61086
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s3el4vu1",
+      "id": "8",
+      "name": "text-yeilbsy",
+      "bbox": [
+        66,
+        478,
+        326,
+        90
+      ],
+      "geometry": "rect",
+      "text": "Se V aumenta, P sobe,\ndesce ou fica igual?",
+      "textPreview": "Se V aumenta, P sobe, | desce ou fica igual?",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Se V aumenta, P sobe,"
+          },
+          {
+            "index": 2,
+            "text": "desce ou fica igual?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Se V aumenta, P sobe,",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Se V aumenta, P sobe,",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#10131A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "desce ou fica igual?",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "desce ou fica igual?",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#10131A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t4nmd0vm",
+      "id": "9",
+      "name": "text-1eanlnu",
+      "bbox": [
+        446,
+        180,
+        342,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Isobárica",
+      "textPreview": "Isobárica",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Isobárica"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Isobárica",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#E95B65",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Isobárica",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#E95B65",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwfqtwr2",
+      "id": "10",
+      "name": "image-backing",
+      "bbox": [
+        443,
+        223,
+        348,
+        231
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0A1026",
+      "lineColor": "#0A1026",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/hkbit47e",
+      "id": "22",
+      "bbox": [
+        446,
+        226,
+        342,
+        225
+      ],
+      "geometry": "roundRect",
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.00188,
+        "right": 0,
+        "bottom": 0.00188
+      },
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 6222"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "/ppt/media/image5.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 60725
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image5.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 60725
+      }
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bux8rm9w",
+      "id": "12",
+      "name": "text-89glrhe",
+      "bbox": [
+        454,
+        478,
+        326,
+        90
+      ],
+      "geometry": "rect",
+      "text": "Se T aumenta, V sobe,\ndesce ou fica igual?",
+      "textPreview": "Se T aumenta, V sobe, | desce ou fica igual?",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Se T aumenta, V sobe,"
+          },
+          {
+            "index": 2,
+            "text": "desce ou fica igual?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Se T aumenta, V sobe,",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Se T aumenta, V sobe,",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#10131A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "desce ou fica igual?",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "desce ou fica igual?",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#10131A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at47yhsb",
+      "id": "13",
+      "name": "text-mn0pupv",
+      "bbox": [
+        834,
+        180,
+        342,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Isocórica",
+      "textPreview": "Isocórica",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Isocórica"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Isocórica",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#3DBB91",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Isocórica",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#3DBB91",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9svqpcbq",
+      "id": "14",
+      "name": "image-backing",
+      "bbox": [
+        831,
+        223,
+        348,
+        231
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0A1026",
+      "lineColor": "#0A1026",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/gj2hkz6t",
+      "id": "23",
+      "bbox": [
+        834,
+        226,
+        342,
+        225
+      ],
+      "geometry": "roundRect",
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.00188,
+        "right": 0,
+        "bottom": 0.00188
+      },
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 6222"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "/ppt/media/image6.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 60636
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image6.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 60636
+      }
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nqd8n2t0",
+      "id": "16",
+      "name": "text-uiax9ui",
+      "bbox": [
+        842,
+        478,
+        326,
+        90
+      ],
+      "geometry": "rect",
+      "text": "Se T aumenta, P sobe,\ndesce ou fica igual?",
+      "textPreview": "Se T aumenta, P sobe, | desce ou fica igual?",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Se T aumenta, P sobe,"
+          },
+          {
+            "index": 2,
+            "text": "desce ou fica igual?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Se T aumenta, P sobe,",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Se T aumenta, P sobe,",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#10131A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "desce ou fica igual?",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "desce ou fica igual?",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#10131A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p47uhsf",
+      "id": "17",
+      "name": "rule",
+      "bbox": [
+        190,
+        594,
+        900,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tozq1gra",
+      "id": "18",
+      "name": "text-u1xrmv7",
+      "bbox": [
+        184,
+        614,
+        912,
+        36
+      ],
+      "geometry": "rect",
+      "text": "A turma vota. O professor move o controle. O gráfico confirma.",
+      "textPreview": "A turma vota. O professor move o controle. O gráfico confirma.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A turma vota. O professor move o controle. O gráfico confirma."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A turma vota. O professor move o controle. O gráfico confirma.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Arial",
+            "color": "#0A1026",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A turma vota. O professor move o controle. O gráfico confirma.",
+              "fontSize": 24,
+              "typeface": "Arial",
+              "color": "#0A1026",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nq98bap",
+      "id": "19",
+      "name": "source-footer",
+      "bbox": [
+        56,
+        667,
+        500,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Celestial Lab • aba Transformações",
+      "textPreview": "Celestial Lab • aba Transformações",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Celestial Lab • aba Transformações"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Celestial Lab • aba Transformações",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Arial",
+            "color": "#7A8089",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Celestial Lab • aba Transformações",
+              "fontSize": 13,
+              "typeface": "Arial",
+              "color": "#7A8089"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,10 @@
+Communication job: by the end, first-year high-school students should explain the first law using Q, ΔU and W and read the signs of heat and work consistently.
+
+Final thermodynamics sequence:
+14. Capa “1ª Lei da Termodinâmica” with animation 1 embedded.
+15. The gas inside the piston is the system; Q and W transfer energy and ΔU records the change.
+16. Q = ΔU + W with positive signs and the additional negative conventions Q < 0 and W < 0.
+17. Compression with revised animation 2 embedded; no green bar, energy meter, Q = 0 or ΔU = −W > 0 segment.
+18. Exit ticket with one gas relationship, one concept question, and one short calculation.
+
+Timing: slides 1–13 preserve 58 minutes; slides 14–18 use 5, 4, 5, 5 and 3 minutes, totaling 80 minutes.

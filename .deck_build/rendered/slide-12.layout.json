@@ -1,0 +1,1116 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/0p0owy",
+    "id": "0p0owy",
+    "slide": 12,
+    "layoutId": "51739a70-359a-4d48-8ca3-7b62dddacad0",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9869942b-8299-4d16-85ba-1b5c8d83ee88",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "51739a70-359a-4d48-8ca3-7b62dddacad0",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9869942b-8299-4d16-85ba-1b5c8d83ee88",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9869942b-8299-4d16-85ba-1b5c8d83ee88",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwf6t0ni",
+      "id": "1",
+      "name": "eyebrow",
+      "bbox": [
+        56,
+        34,
+        650,
+        24
+      ],
+      "geometry": "rect",
+      "text": "SISTEMA • VIZINHANÇA • ENERGIA",
+      "textPreview": "SISTEMA • VIZINHANÇA • ENERGIA",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Arial",
+        "color": "#087E8B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SISTEMA • VIZINHANÇA • ENERGIA"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SISTEMA • VIZINHANÇA • ENERGIA",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Arial",
+            "color": "#087E8B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SISTEMA • VIZINHANÇA • ENERGIA",
+              "fontSize": 16,
+              "typeface": "Arial",
+              "color": "#087E8B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2t47i547",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        56,
+        72,
+        1130,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Termodinâmica rastreia a energia do sistema",
+      "textPreview": "Termodinâmica rastreia a energia do sistema",
+      "resolvedFontSize": 46,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 46,
+        "typeface": "Arial",
+        "color": "#10131A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Termodinâmica rastreia a energia do sistema"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Termodinâmica rastreia a energia do sistema",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "typeface": "Arial",
+            "color": "#10131A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Termodinâmica rastreia a energia do sistema",
+              "fontSize": 46,
+              "typeface": "Arial",
+              "color": "#10131A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3uxora5s",
+      "id": "3",
+      "name": "rule",
+      "bbox": [
+        56,
+        142,
+        1168,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cz6pofm9",
+      "id": "4",
+      "name": "page-12",
+      "bbox": [
+        1174,
+        656,
+        50,
+        32
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Arial",
+        "color": "#5D6470",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "fontSize": 14,
+              "typeface": "Arial",
+              "color": "#5D6470",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#EEF1F3",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0f6xk3u",
+      "id": "5",
+      "name": "text-w7w423h",
+      "bbox": [
+        74,
+        268,
+        240,
+        42
+      ],
+      "geometry": "rect",
+      "text": "CALOR (Q)",
+      "textPreview": "CALOR (Q)",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Arial",
+        "color": "#F28C45",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CALOR (Q)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CALOR (Q)",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Arial",
+            "color": "#F28C45",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CALOR (Q)",
+              "fontSize": 30,
+              "typeface": "Arial",
+              "color": "#F28C45",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxo7m543",
+      "id": "6",
+      "name": "text-9pvnr3q",
+      "bbox": [
+        74,
+        318,
+        240,
+        80
+      ],
+      "geometry": "rect",
+      "text": "energia por diferença\nde temperatura",
+      "textPreview": "energia por diferença | de temperatura",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Arial",
+        "color": "#5D6470",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "energia por diferença"
+          },
+          {
+            "index": 2,
+            "text": "de temperatura"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "energia por diferença",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "energia por diferença",
+              "fontSize": 22,
+              "typeface": "Arial",
+              "color": "#5D6470",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "de temperatura",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "de temperatura",
+              "fontSize": 22,
+              "typeface": "Arial",
+              "color": "#5D6470",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ryxova5o",
+      "id": "7",
+      "name": "text-kavayxw",
+      "bbox": [
+        308,
+        290,
+        100,
+        80
+      ],
+      "geometry": "rect",
+      "text": "→",
+      "textPreview": "→",
+      "resolvedFontSize": 64,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 64,
+        "typeface": "Arial",
+        "color": "#F28C45",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "→"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "→",
+          "resolvedTextStyle": {
+            "fontSize": 64,
+            "typeface": "Arial",
+            "color": "#F28C45",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "→",
+              "fontSize": 64,
+              "typeface": "Arial",
+              "color": "#F28C45",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/03qpsfm5",
+      "id": "8",
+      "name": "text-hrk1zq6",
+      "bbox": [
+        872,
+        290,
+        100,
+        80
+      ],
+      "geometry": "rect",
+      "text": "→",
+      "textPreview": "→",
+      "resolvedFontSize": 64,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 64,
+        "typeface": "Arial",
+        "color": "#3D8DFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "→"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "→",
+          "resolvedTextStyle": {
+            "fontSize": 64,
+            "typeface": "Arial",
+            "color": "#3D8DFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "→",
+              "fontSize": 64,
+              "typeface": "Arial",
+              "color": "#3D8DFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lozq1k3q",
+      "id": "9",
+      "name": "system-box",
+      "bbox": [
+        408,
+        218,
+        464,
+        270
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0A1026",
+      "lineColor": "#0A1026",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0nudg7a",
+      "id": "10",
+      "name": "text-hnh3luu",
+      "bbox": [
+        468,
+        258,
+        344,
+        64
+      ],
+      "geometry": "rect",
+      "text": "GÁS",
+      "textPreview": "GÁS",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Arial",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GÁS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GÁS",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Arial",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GÁS",
+              "fontSize": 48,
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzed4b6p",
+      "id": "11",
+      "name": "text-r3xpi84",
+      "bbox": [
+        468,
+        330,
+        344,
+        38
+      ],
+      "geometry": "rect",
+      "text": "sistema",
+      "textPreview": "sistema",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Arial",
+        "color": "#16C8D8",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "sistema"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "sistema",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#16C8D8",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "sistema",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#16C8D8",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jylcb6p4",
+      "id": "12",
+      "name": "text-s381127",
+      "bbox": [
+        468,
+        398,
+        344,
+        42
+      ],
+      "geometry": "rect",
+      "text": "energia interna U",
+      "textPreview": "energia interna U",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Arial",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "energia interna U"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "energia interna U",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Arial",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "energia interna U",
+              "fontSize": 28,
+              "typeface": "Arial",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxcv21oj",
+      "id": "13",
+      "name": "text-2wq5hwa",
+      "bbox": [
+        966,
+        268,
+        240,
+        42
+      ],
+      "geometry": "rect",
+      "text": "TRABALHO W",
+      "textPreview": "TRABALHO W",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Arial",
+        "color": "#3D8DFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TRABALHO W"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TRABALHO W",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Arial",
+            "color": "#3D8DFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TRABALHO W",
+              "fontSize": 28,
+              "typeface": "Arial",
+              "color": "#3D8DFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t4nuhg76",
+      "id": "14",
+      "name": "text-br3a57l",
+      "bbox": [
+        966,
+        318,
+        240,
+        80
+      ],
+      "geometry": "rect",
+      "text": "energia por força e\ndeslocamento do pistão",
+      "textPreview": "energia por força e | deslocamento do pistão",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Arial",
+        "color": "#5D6470",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "energia por força e"
+          },
+          {
+            "index": 2,
+            "text": "deslocamento do"
+          },
+          {
+            "index": 3,
+            "text": "pistão"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "energia por força e",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "energia por força e",
+              "fontSize": 22,
+              "typeface": "Arial",
+              "color": "#5D6470",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "deslocamento do pistão",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Arial",
+            "color": "#5D6470",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "deslocamento do pistão",
+              "fontSize": 22,
+              "typeface": "Arial",
+              "color": "#5D6470",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83ed8b6l",
+      "id": "15",
+      "name": "rule",
+      "bbox": [
+        166,
+        538,
+        948,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#B8BCC4",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/725cf6pg",
+      "id": "16",
+      "name": "text-lhibmuz",
+      "bbox": [
+        164,
+        574,
+        952,
+        50
+      ],
+      "geometry": "rect",
+      "text": "Calor e trabalho são energia em trânsito; o sistema armazena energia interna.",
+      "textPreview": "Calor e trabalho são energia em trânsito; o sistema armazena energia interna.",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Arial",
+        "color": "#087E8B",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Calor e trabalho são energia em trânsito; o sistema armazena energia"
+          },
+          {
+            "index": 2,
+            "text": "interna."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Calor e trabalho são energia em trânsito; o sistema armazena energia interna.",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Arial",
+            "color": "#087E8B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Calor e trabalho são energia em trânsito; o sistema armazena energia interna.",
+              "fontSize": 27,
+              "typeface": "Arial",
+              "color": "#087E8B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61wv6lov",
+      "id": "17",
+      "name": "source-footer",
+      "bbox": [
+        56,
+        667,
+        500,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Convenção adotada: W > 0 quando o gás realiza trabalho",
+      "textPreview": "Convenção adotada: W > 0 quando o gás realiza trabalho",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Arial",
+        "color": "#7A8089",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Convenção adotada: W > 0 quando o gás realiza trabalho"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Convenção adotada: W > 0 quando o gás realiza trabalho",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Arial",
+            "color": "#7A8089",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Convenção adotada: W > 0 quando o gás realiza trabalho",
+              "fontSize": 13,
+              "typeface": "Arial",
+              "color": "#7A8089",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

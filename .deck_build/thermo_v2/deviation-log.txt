@@ -1,0 +1,2 @@
+Source slide 17 was intentionally omitted because it introduces thermodynamic transformations in the First Law section; the user requested a narrower focus on Q, ΔU and W.
+Source slide 3 is reused twice as an animation-observation layout.

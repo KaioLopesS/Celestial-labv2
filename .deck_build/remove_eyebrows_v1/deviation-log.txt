@@ -1,0 +1,3 @@
+Slides 2–18: texto do objeto herdado eyebrow removido a pedido do usuário.
+
+Todos os demais objetos permanecem inalterados, inclusive títulos, enunciados, tabelas, gráficos, imagens, numeração e notas do professor.

@@ -1,0 +1,9 @@
+[Sources]
+- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law
+- https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics
+- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx
+
+Resultados calculados antes da edição:
+- V e n constantes; T dobra de 300 K para 600 K: P dobra de 100 kPa para 200 kPa.
+- T e n constantes; V dobra de 4 L para 8 L: P cai de 120 kPa para 60 kPa.
+- Q = ΔU + W; Q = 100 J e W = 40 J: ΔU = 60 J.

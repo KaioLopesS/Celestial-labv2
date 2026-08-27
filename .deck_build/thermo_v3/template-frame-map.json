@@ -1,0 +1,43 @@
+{
+  "outputSlides": [
+    {"outputSlide":1,"sourceSlide":1,"narrativeRole":"capa da aula","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":2,"sourceSlide":2,"narrativeRole":"problema inicial sobre gases","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":3,"sourceSlide":3,"narrativeRole":"modelo cinetico dos gases","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":4,"sourceSlide":4,"narrativeRole":"variaveis de estado","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":5,"sourceSlide":5,"narrativeRole":"orientacao para o Celestial Lab","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":6,"sourceSlide":6,"narrativeRole":"demonstracao temperatura e pressao","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":7,"sourceSlide":7,"narrativeRole":"resultado temperatura e pressao","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":8,"sourceSlide":8,"narrativeRole":"exercicio curto de temperatura e pressao","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":9,"sourceSlide":9,"narrativeRole":"demonstracao volume e pressao","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":10,"sourceSlide":10,"narrativeRole":"resultado volume e pressao","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":11,"sourceSlide":11,"narrativeRole":"exercicio curto de volume e pressao","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":12,"sourceSlide":12,"narrativeRole":"sintese das transformacoes no bloco de gases","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":13,"sourceSlide":13,"narrativeRole":"fechamento do bloco de gases","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":14,"sourceSlide":14,"narrativeRole":"capa da primeira lei com animacao 1 incorporada","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/xc7eds76","reason":"alterar o titulo para primeira lei da termodinamica"},
+      {"action":"rewrite","sourceElementId":"sh/idgvmx8r","reason":"orientar a observacao do sistema"},
+      {"action":"replace","sourceElementId":"im/fu1cza1s","reason":"incorporar a animacao 1 como GIF animado"}
+    ]},
+    {"outputSlide":15,"sourceSlide":15,"narrativeRole":"sistema e grandezas Q delta U e W","reuseMode":"duplicate-slide","editTargets":[]},
+    {"outputSlide":16,"sourceSlide":16,"narrativeRole":"primeira lei e convencao completa de sinais","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/8z2h8bq1","reason":"destacar a convencao de sinais"},
+      {"action":"rewrite","sourceElementId":"sh/2pcfa5oz","reason":"adicionar Q negativo"},
+      {"action":"rewrite","sourceElementId":"sh/ps3y5knq","reason":"adicionar W negativo"}
+    ]},
+    {"outputSlide":17,"sourceSlide":19,"narrativeRole":"compressao com animacao 2 incorporada","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/9gb6xgbi","reason":"titulo conceitual da compressao"},
+      {"action":"replace","sourceElementId":"im/pkzm18ja","reason":"incorporar a animacao 2 revisada como GIF animado"},
+      {"action":"rewrite","sourceElementId":"sh/jmd83atk","reason":"observacao durante a compressao"},
+      {"action":"rewrite","sourceElementId":"sh/rqp07290","reason":"remover Q igual a zero e delta U igual a menos W"},
+      {"action":"rewrite","sourceElementId":"sh/vitozqt8","reason":"atualizar a numeracao"}
+    ]},
+    {"outputSlide":18,"sourceSlide":20,"narrativeRole":"bilhete de saida com duas ideias e uma conta","reuseMode":"duplicate-slide","editTargets":[
+      {"action":"rewrite","sourceElementId":"sh/qpwjmh8n","reason":"titulo do fechamento reduzido"},
+      {"action":"rewrite","sourceElementId":"sh/4nu1krqh","reason":"atualizar a numeracao"}
+    ]}
+  ],
+  "omittedSourceSlides": [
+    {"sourceSlide":17,"reason":"a animacao 1 foi incorporada diretamente na capa da primeira lei"},
+    {"sourceSlide":18,"reason":"a conta de uma etapa foi absorvida pelo bilhete de saida para reduzir a quantidade de slides"}
+  ]
+}

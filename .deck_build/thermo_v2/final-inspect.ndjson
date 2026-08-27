@@ -1,0 +1,327 @@
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"FÍSICA • 1º ANO DO ENSINO MÉDIO","textShapes":5}
+{"kind":"textbox","id":"sh/utg3698n","slide":1,"name":"cover-eyebrow","text":"FÍSICA • 1º ANO DO ENSINO MÉDIO","textPreview":"FÍSICA • 1º ANO DO ENSINO MÉDIO","textChars":31,"textLines":1,"bbox":[56,50,560,28]}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"name":"cover-title","text":"Gases ideais e\ntermodinâmica","textPreview":"Gases ideais e | termodinâmica","textChars":28,"textLines":2,"bbox":[56,145,545,190]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"name":"cover-subtitle","text":"Do movimento das partículas à conservação de energia","textPreview":"Do movimento das partículas à conservação de energia","textChars":52,"textLines":1,"bbox":[56,370,520,82]}
+{"kind":"shape","id":"sh/7qp4be9c","slide":1,"name":"rule","bbox":[56,510,150,8]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"name":"cover-kicker","text":"Aula investigativa com o Celestial Lab","textPreview":"Aula investigativa com o Celestial Lab","textChars":38,"textLines":1,"bbox":[56,548,470,34]}
+{"kind":"shape","id":"sh/ts7md4r2","slide":1,"name":"image-backing","bbox":[647,39,580,612]}
+{"kind":"textbox","id":"sh/fu94fe98","slide":1,"name":"text-utgdpr5","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1180,670,44,20]}
+{"kind":"image","id":"im/jqxw72dk","slide":1,"name":"","geometry":"roundRect","bbox":[650,42,574,606]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"Tempo: 2 min\n\nCondução: Apresente a pergunta central: como prever o que acontece com um gás quando aquecemos, comprimimos ou deixamos expandir? Diga que a aula alternará previsões, testes no simulador, cálculos rápidos e explicações.\n\n[Sources]\n- C:/Users/User/Desktop/celestial-labv1/deck_assets/gases-laboratorio.png\n- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"O pneu muda sem ganhar nem perder ar?","textShapes":8}
+{"kind":"shape","id":"sh/nu58f2hs","slide":2,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"name":"slide-title","text":"O pneu muda sem ganhar nem perder ar?","textPreview":"O pneu muda sem ganhar nem perder ar?","textChars":37,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/ozy1ofad","slide":2,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"name":"page-02","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"name":"hook-context","text":"Um carro sai cedo, com os pneus frios. Depois de rodar por uma hora, a temperatura do ar dentro deles aumenta.","textPreview":"Um carro sai cedo, com os pneus frios. Depois de rodar por uma hora, a temperatura do ar dentro deles aumenta.","textChars":110,"textLines":1,"bbox":[86,202,1110,76]}
+{"kind":"shape","id":"sh/x4r21kru","slide":2,"name":"rule","bbox":[182,324,916,4]}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"name":"text-lidx88i","text":"A pressão tende a…","textPreview":"A pressão tende a…","textChars":18,"textLines":1,"bbox":[144,366,330,45]}
+{"kind":"textbox","id":"sh/r65knqtk","slide":2,"name":"text-z8yrxya","text":"diminuir","textPreview":"diminuir","textChars":8,"textLines":1,"bbox":[190,446,220,58]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"name":"text-xvn5aul","text":"ficar igual","textPreview":"ficar igual","textChars":11,"textLines":1,"bbox":[530,446,220,58]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"name":"text-6wlef9f","text":"aumentar","textPreview":"aumentar","textChars":8,"textLines":1,"bbox":[870,446,220,58]}
+{"kind":"textbox","id":"sh/9wnqhczy","slide":2,"name":"text-tnhme7j","text":"Escolha uma opção e justifique com partículas.","textPreview":"Escolha uma opção e justifique com partículas.","textChars":46,"textLines":1,"bbox":[275,575,730,38]}
+{"kind":"shape","id":"sh/mtwrmxg7","slide":2,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"Tempo: 4 min\n\nCondução: Faça votação rápida com as mãos e peça duas justificativas. Não confirme ainda. Retome as respostas no slide 7, depois do experimento temperatura–pressão.\n\n[Sources]\n- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"A pressão nasce de colisões com as paredes","textShapes":7}
+{"kind":"shape","id":"sh/a5c3ql8z","slide":3,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"name":"slide-title","text":"A pressão nasce de colisões com as paredes","textPreview":"A pressão nasce de colisões com as paredes","textChars":42,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/d0jax03i","slide":3,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"name":"page-03","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"shape","id":"sh/3ah8rqlg","slide":3,"name":"image-backing","bbox":[53,175,576,441]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"name":"text-0h7s5jw","text":"Partículas em movimento aleatório","textPreview":"Partículas em movimento aleatório","textChars":33,"textLines":1,"bbox":[690,202,500,42]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"name":"text-7vayxig","text":"Elas se chocam entre si e com as paredes do recipiente.","textPreview":"Elas se chocam entre si e com as paredes do recipiente.","textChars":55,"textLines":1,"bbox":[690,254,490,64]}
+{"kind":"shape","id":"sh/n6ls3alk","slide":3,"name":"rule","bbox":[690,338,455,1]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"name":"text-dy89sif","text":"Temperatura maior → partículas mais rápidas","textPreview":"Temperatura maior → partículas mais rápidas","textChars":43,"textLines":1,"bbox":[690,368,490,72]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"name":"text-y09sok9","text":"Colisões mais frequentes e intensas podem elevar a pressão.","textPreview":"Colisões mais frequentes e intensas podem elevar a pressão.","textChars":59,"textLines":1,"bbox":[690,448,490,68]}
+{"kind":"shape","id":"sh/943mhgre","slide":3,"name":"rule","bbox":[690,538,455,1]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"name":"text-ce347ry","text":"No modelo ideal, as partículas ocupam volume desprezível e as colisões são elásticas.","textPreview":"No modelo ideal, as partículas ocupam volume desprezível e as colisões são elásticas.","textChars":85,"textLines":1,"bbox":[690,566,490,76]}
+{"kind":"shape","id":"sh/v6l4jq94","slide":3,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"image","id":"im/ulcnalwf","slide":3,"name":"","geometry":"roundRect","bbox":[56,178,570,435]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"Tempo: 5 min\n\nCondução: Conecte a animação à explicação: pressão é o efeito macroscópico de muitas colisões. Peça aos alunos que observem as cores/velocidades e formulem uma hipótese sobre o que muda ao aumentar T.\n\n[Sources]\n- C:/Users/User/Desktop/celestial-labv1/deck_assets/gases-laboratorio-full.png\n- https://openstax.org/books/college-physics-2e/pages/13-4-kinetic-theory-atomic-and-molecular-explanation-of-pressure-and-temperature"}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"Quatro grandezas descrevem o estado do gás","textShapes":18}
+{"kind":"shape","id":"sh/1wbapc7q","slide":4,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"name":"slide-title","text":"Quatro grandezas descrevem o estado do gás","textPreview":"Quatro grandezas descrevem o estado do gás","textChars":42,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"name":"page-04","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/ql8jytsj","slide":4,"name":"ideal-gas-equation","text":"PV = nRT","textPreview":"PV = nRT","textChars":8,"textLines":1,"bbox":[64,192,500,108]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"name":"text-ctlurte","text":"A equação organiza as relações que vamos testar — não é uma lista de letras para decorar.","textPreview":"A equação organiza as relações que vamos testar — não é uma lista de letras para decorar.","textChars":89,"textLines":1,"bbox":[64,316,500,95]}
+{"kind":"shape","id":"sh/sna103ap","slide":4,"name":"variables-panel","bbox":[640,184,520,382]}
+{"kind":"textbox","id":"sh/3ihk3et8","slide":4,"name":"text-aet0i7u","text":"P","textPreview":"P","textChars":1,"textLines":1,"bbox":[672,210,64,52]}
+{"kind":"textbox","id":"sh/ih8ju9sn","slide":4,"name":"text-nfc49ta","text":"pressão","textPreview":"pressão","textChars":7,"textLines":1,"bbox":[762,212,260,32]}
+{"kind":"textbox","id":"sh/kbm987y5","slide":4,"name":"text-6ji6lgk","text":"kPa","textPreview":"kPa","textChars":3,"textLines":1,"bbox":[1020,215,112,28]}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"name":"text-lgjpo1a","text":"V","textPreview":"V","textChars":1,"textLines":1,"bbox":[672,292,64,52]}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"name":"text-ojd8v2i","text":"volume","textPreview":"volume","textChars":6,"textLines":1,"bbox":[762,294,260,32]}
+{"kind":"textbox","id":"sh/jadsz2xk","slide":4,"name":"text-mz2y33h","text":"L","textPreview":"L","textChars":1,"textLines":1,"bbox":[1020,297,112,28]}
+{"kind":"textbox","id":"sh/w72947yt","slide":4,"name":"text-ftgywrw","text":"n","textPreview":"n","textChars":1,"textLines":1,"bbox":[672,374,64,52]}
+{"kind":"textbox","id":"sh/x8vaxsfe","slide":4,"name":"text-djhvbsf","text":"quantidade de gás","textPreview":"quantidade de gás","textChars":17,"textLines":1,"bbox":[762,376,260,32]}
+{"kind":"textbox","id":"sh/a5kr2xg3","slide":4,"name":"text-mwsrrsp","text":"mol / partículas","textPreview":"mol / partículas","textChars":16,"textLines":1,"bbox":[1020,379,112,28]}
+{"kind":"textbox","id":"sh/v6tsv2xo","slide":4,"name":"text-ah1583m","text":"T","textPreview":"T","textChars":1,"textLines":1,"bbox":[672,456,64,52]}
+{"kind":"textbox","id":"sh/g36tgryd","slide":4,"name":"text-fbuicsq","text":"temperatura absoluta","textPreview":"temperatura absoluta","textChars":20,"textLines":1,"bbox":[762,458,260,32]}
+{"kind":"textbox","id":"sh/h4fa9wfy","slide":4,"name":"text-p66fpch","text":"K","textPreview":"K","textChars":1,"textLines":1,"bbox":[1020,461,112,28]}
+{"kind":"shape","id":"sh/p0batw72","slide":4,"name":"kelvin-note","bbox":[64,492,500,74]}
+{"kind":"textbox","id":"sh/oz29krqh","slide":4,"name":"text-hl09t8y","text":"Nas leis dos gases, use temperatura em kelvin.","textPreview":"Nas leis dos gases, use temperatura em kelvin.","textChars":46,"textLines":1,"bbox":[86,512,460,38]}
+{"kind":"textbox","id":"sh/3ytsrmpw","slide":4,"name":"text-llqhpf2","text":"R é a constante universal dos gases.","textPreview":"R é a constante universal dos gases.","textChars":36,"textLines":1,"bbox":[64,594,500,30]}
+{"kind":"shape","id":"sh/2xkrih8b","slide":4,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"Tempo: 5 min\n\nCondução: Dê significado a cada variável e às unidades usadas no Celestial Lab. Faça um teste oral: se V e n ficam constantes e T aumenta, qual lado da equação precisa acompanhar? Apresente as relações proporcionais como ferramentas de cálculo.\n\n[Sources]\n- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law\n- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"Na demonstração, observe uma variável por vez","textShapes":11}
+{"kind":"shape","id":"sh/j6dwfqds","slide":5,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"name":"slide-title","text":"Na demonstração, observe uma variável por vez","textPreview":"Na demonstração, observe uma variável por vez","textChars":45,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/cf2tcr61","slide":5,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"name":"page-05","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"name":"step-1-number","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[58,194,46,30]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"name":"step-1-text","text":"Observe o que ficará constante.","textPreview":"Observe o que ficará constante.","textChars":31,"textLines":1,"bbox":[116,192,362,88]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"name":"step-2-number","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[58,286,46,30]}
+{"kind":"textbox","id":"sh/n6dcr65o","slide":5,"name":"step-2-text","text":"Faça uma previsão curta.","textPreview":"Faça uma previsão curta.","textChars":24,"textLines":1,"bbox":[116,284,362,88]}
+{"kind":"textbox","id":"sh/m5kbi1oj","slide":5,"name":"step-3-number","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[58,378,46,30]}
+{"kind":"textbox","id":"sh/w32dkbuh","slide":5,"name":"step-3-text","text":"O professor move um controle.","textPreview":"O professor move um controle.","textChars":29,"textLines":1,"bbox":[116,376,362,88]}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"name":"step-4-number","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[58,470,46,30]}
+{"kind":"textbox","id":"sh/ahkvi1cb","slide":5,"name":"step-4-text","text":"Registre: subiu, desceu ou ficou igual.","textPreview":"Registre: subiu, desceu ou ficou igual.","textChars":39,"textLines":1,"bbox":[116,468,362,88]}
+{"kind":"shape","id":"sh/v2twb6dw","slide":5,"name":"image-backing","bbox":[515,175,712,451]}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"name":"text-qyz355l","text":"Vote antes de cada teste.","textPreview":"Vote antes de cada teste.","textChars":25,"textLines":1,"bbox":[66,590,390,34]}
+{"kind":"shape","id":"sh/i54fmlc7","slide":5,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"image","id":"im/vitwz65k","slide":5,"name":"","geometry":"roundRect","bbox":[518,178.21,706,444.58]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"Tempo: 4 min\n\nCondução: Você controla o Celestial Lab. Em cada rodada, mostre o que ficará constante, peça uma votação rápida — sobe, desce ou fica igual —, altere um controle e só então discuta o resultado. Os alunos registram uma palavra ou frase curta.\n\n[Sources]\n- C:/Users/User/Desktop/celestial-labv1/deck_assets/gases-laboratorio-full.png\n- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"Demonstração 1: aquecer sem deixar expandir","textShapes":12}
+{"kind":"shape","id":"sh/twfux0ne","slide":6,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"name":"slide-title","text":"Demonstração 1: aquecer sem deixar expandir","textPreview":"Demonstração 1: aquecer sem deixar expandir","textChars":43,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/zi98nu94","slide":6,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"name":"page-06","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/98rqt4r6","slide":6,"name":"text-j1gq0xy","text":"Mantenha V = 6,0 L e 40 partículas.","textPreview":"Mantenha V = 6,0 L e 40 partículas.","textChars":35,"textLines":1,"bbox":[58,184,510,42]}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"name":"step-1-number","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[58,250,46,30]}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"name":"step-1-text","text":"Observe T = 200 K e anote P.","textPreview":"Observe T = 200 K e anote P.","textChars":28,"textLines":1,"bbox":[116,248,442,74]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"name":"step-2-number","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[58,328,46,30]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"name":"step-2-text","text":"O professor muda para 400 K e 600 K.","textPreview":"O professor muda para 400 K e 600 K.","textChars":36,"textLines":1,"bbox":[116,326,442,74]}
+{"kind":"textbox","id":"sh/h4bupgn6","slide":6,"name":"step-3-number","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[58,406,46,30]}
+{"kind":"textbox","id":"sh/w32twb6l","slide":6,"name":"step-3-text","text":"A turma responde: P sobe, desce ou fica igual?","textPreview":"A turma responde: P sobe, desce ou fica igual?","textChars":46,"textLines":1,"bbox":[116,404,442,74]}
+{"kind":"textbox","id":"sh/v2tcn650","slide":6,"name":"step-4-number","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[58,484,46,30]}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"name":"step-4-text","text":"Complete: quando T dobra, P __________.","textPreview":"Complete: quando T dobra, P __________.","textChars":39,"textLines":1,"bbox":[116,482,442,74]}
+{"kind":"shape","id":"sh/47mt0b6x","slide":6,"name":"prediction-prompt","bbox":[642,548,520,70]}
+{"kind":"textbox","id":"sh/j6dcr65c","slide":6,"name":"text-hkw0fcl","text":"Sem construir gráfico: observe apenas a tendência.","textPreview":"Sem construir gráfico: observe apenas a tendência.","textChars":50,"textLines":1,"bbox":[664,565,478,42]}
+{"kind":"shape","id":"sh/i54bylor","slide":6,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"table","id":"tb/bil0belk","slide":6,"name":"","rows":4,"cols":3,"preview":"T (K) | P (kPa) | Tendência","bbox":[642,210,520,304]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"Tempo: 7 min\n\nCondução: Mantenha V = 6,0 L e 40 partículas. Você ajusta T para 200 K, 400 K e 600 K. Antes de cada mudança, a turma prevê se P sobe, desce ou fica igual. Valores esperados no modelo: aproximadamente 110,9; 221,7; 332,6 kPa. Conclusão: quando T dobra, P dobra. Não peça a construção de gráfico.\n\n[Sources]\n- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx\n- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"Com volume constante, P acompanha T","textShapes":6}
+{"kind":"shape","id":"sh/xcz2l03q","slide":7,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"name":"slide-title","text":"Com volume constante, P acompanha T","textPreview":"Com volume constante, P acompanha T","textChars":35,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/dcbud0ra","slide":7,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"name":"page-07","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"name":"text-npft33j","text":"V e n constantes","textPreview":"V e n constantes","textChars":16,"textLines":1,"bbox":[820,206,330,40]}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"name":"text-9v4r9gz","text":"P / T = constante","textPreview":"P / T = constante","textChars":17,"textLines":1,"bbox":[800,282,370,70]}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"name":"text-2wwt5av","text":"Temperatura maior → partículas mais rápidas → colisões mais intensas → pressão maior.","textPreview":"Temperatura maior → partículas mais rápidas → colisões mais intensas → pressão maior.","textChars":85,"textLines":1,"bbox":[816,390,340,120]}
+{"kind":"shape","id":"sh/fi9c369c","slide":7,"name":"hook-answer","bbox":[806,544,360,70]}
+{"kind":"textbox","id":"sh/baxkjqlk","slide":7,"name":"text-ccqjhm0","text":"Voltando ao pneu: a pressão aumenta.","textPreview":"Voltando ao pneu: a pressão aumenta.","textChars":36,"textLines":1,"bbox":[826,562,320,42]}
+{"kind":"shape","id":"sh/a9ojq5kz","slide":7,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"chart","id":"ch/0vqt0je5","slide":7,"name":"Chart","chartType":"line","title":"Pressão × temperatura","bbox":[62,180,690,420]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"Tempo: 3 min\n\nCondução: Peça aos alunos que comparem seus dados com a tendência do gráfico. Retome o slide 2: num pneu, o volume varia pouco, portanto o aquecimento tende a elevar a pressão. Destaque que a proporcionalidade exige kelvin.\n\n[Sources]\n- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx\n- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"Se T dobra, o que acontece com P?","textShapes":9}
+{"kind":"shape","id":"sh/ehgvihwr","slide":8,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"name":"slide-title","text":"Se T dobra, o que acontece com P?","textPreview":"Se T dobra, o que acontece com P?","textChars":33,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/g72x4zyd","slide":8,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/ri9g7uhw","slide":8,"name":"page-15","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"name":"text-2h7uqrl","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[84,192,72,46]}
+{"kind":"textbox","id":"sh/tkby9kzm","slide":8,"name":"text-jaqzqbn","text":"V e n permanecem constantes.","textPreview":"V e n permanecem constantes.","textChars":28,"textLines":1,"bbox":[182,190,980,78]}
+{"kind":"shape","id":"sh/sjix0zy1","slide":8,"name":"rule","bbox":[182,290,980,1]}
+{"kind":"textbox","id":"sh/je9g3ahk","slide":8,"name":"text-ip40j0r","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[84,324,72,46]}
+{"kind":"textbox","id":"sh/id0fu50z","slide":8,"name":"text-2mfr9lt","text":"T: 300 K → 600 K; P inicial = 100 kPa.","textPreview":"T: 300 K → 600 K; P inicial = 100 kPa.","textChars":38,"textLines":1,"bbox":[182,322,980,78]}
+{"kind":"shape","id":"sh/o7ydoret","slide":8,"name":"rule","bbox":[182,422,980,1]}
+{"kind":"textbox","id":"sh/98rehwve","slide":8,"name":"text-umy42l9","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[84,456,72,46]}
+{"kind":"textbox","id":"sh/m5gvmhwn","slide":8,"name":"text-nabcoc3","text":"A pressão final será 50, 100 ou 200 kPa?","textPreview":"A pressão final será 50, 100 ou 200 kPa?","textChars":40,"textLines":1,"bbox":[182,454,980,78]}
+{"kind":"shape","id":"sh/n6pwfmd8","slide":8,"name":"closing-box","bbox":[260,594,760,58]}
+{"kind":"textbox","id":"sh/0jydkreh","slide":8,"name":"text-5fnwh88","text":"Escolha → justifique → confira no simulador.","textPreview":"Escolha → justifique → confira no simulador.","textChars":44,"textLines":1,"bbox":[284,607,712,36]}
+{"kind":"shape","id":"sh/1k7edwv2","slide":8,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"Tempo: 2 min\n\nCondução: Peça a escolha antes de qualquer conta. Resposta: 200 kPa. Como V e n são constantes, P é diretamente proporcional à temperatura em kelvin; quando T dobra, P dobra. Convide um aluno a justificar e então confirme a tendência no simulador.\n\n[Sources]\n- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law\n- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx"}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"Demonstração 2: expandir sem aquecer","textShapes":12}
+{"kind":"shape","id":"sh/0ru1ozyp","slide":9,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/1cfmhgne","slide":9,"name":"slide-title","text":"Demonstração 2: expandir sem aquecer","textPreview":"Demonstração 2: expandir sem aquecer","textChars":36,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/0b65obm9","slide":9,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/nex4jq5k","slide":9,"name":"page-08","text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/mdonql4z","slide":9,"name":"text-e0a65jk","text":"Mantenha T = 300 K e 40 partículas.","textPreview":"Mantenha T = 300 K e 40 partículas.","textChars":35,"textLines":1,"bbox":[58,184,510,42]}
+{"kind":"textbox","id":"sh/9gzml0nq","slide":9,"name":"step-1-number","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[58,250,46,30]}
+{"kind":"textbox","id":"sh/ofq5svm5","slide":9,"name":"step-1-text","text":"Observe V = 3,0 L e anote P.","textPreview":"Observe V = 3,0 L e anote P.","textChars":28,"textLines":1,"bbox":[116,248,442,74]}
+{"kind":"textbox","id":"sh/bih4na5w","slide":9,"name":"step-2-number","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[58,328,46,30]}
+{"kind":"textbox","id":"sh/ah8nu54b","slide":9,"name":"step-2-text","text":"O professor muda para 6,0 L e 9,0 L.","textPreview":"O professor muda para 6,0 L e 9,0 L.","textChars":36,"textLines":1,"bbox":[116,326,442,74]}
+{"kind":"textbox","id":"sh/oza1gfyh","slide":9,"name":"step-3-number","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[58,406,46,30]}
+{"kind":"textbox","id":"sh/p0ji9kf2","slide":9,"name":"step-3-text","text":"A turma responde: P sobe, desce ou fica igual?","textPreview":"A turma responde: P sobe, desce ou fica igual?","textChars":46,"textLines":1,"bbox":[116,404,442,74]}
+{"kind":"textbox","id":"sh/2xsjepgb","slide":9,"name":"step-4-number","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[58,484,46,30]}
+{"kind":"textbox","id":"sh/3y107axw","slide":9,"name":"step-4-text","text":"Complete: quando V dobra, P __________.","textPreview":"Complete: quando V dobra, P __________.","textChars":39,"textLines":1,"bbox":[116,482,442,74]}
+{"kind":"shape","id":"sh/do3id4fy","slide":9,"name":"volume-prediction","bbox":[642,548,520,70]}
+{"kind":"textbox","id":"sh/qlcjipgn","slide":9,"name":"text-4u04m0c","text":"Sem construir gráfico: observe apenas a tendência.","textPreview":"Sem construir gráfico: observe apenas a tendência.","textChars":50,"textLines":1,"bbox":[664,565,478,42]}
+{"kind":"shape","id":"sh/bml0buxs","slide":9,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"table","id":"tb/yhg36ds3","slide":9,"name":"","rows":4,"cols":3,"preview":"V (L) | P (kPa) | Tendência","bbox":[642,210,520,304]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"Tempo: 7 min\n\nCondução: Mantenha T = 300 K e 40 partículas. Você ajusta V para 3,0 L, 6,0 L e 9,0 L. Antes de cada mudança, a turma prevê a tendência de P. Valores esperados: aproximadamente 332,6; 166,3; 110,9 kPa. Conclusão: quando V dobra, P cai à metade. Não exija cálculo de P×V nem construção de gráfico.\n\n[Sources]\n- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx\n- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law"}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"A T constante, aumentar V reduz P","textShapes":6}
+{"kind":"shape","id":"sh/q5gb21kb","slide":10,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"name":"slide-title","text":"A T constante, aumentar V reduz P","textPreview":"A T constante, aumentar V reduz P","textChars":33,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/cbu58j2h","slide":10,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/zelojyl8","slide":10,"name":"page-09","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/l036l83y","slide":10,"name":"text-q1i70iz","text":"T e n constantes","textPreview":"T e n constantes","textChars":16,"textLines":1,"bbox":[820,206,330,40]}
+{"kind":"textbox","id":"sh/kzu5c32t","slide":10,"name":"text-wbbwgea","text":"P × V = constante","textPreview":"P × V = constante","textChars":17,"textLines":1,"bbox":[790,282,390,70]}
+{"kind":"textbox","id":"sh/725onyl4","slide":10,"name":"text-n7gceh3","text":"Menos espaço → mais encontros com as paredes por intervalo de tempo → pressão maior.","textPreview":"Menos espaço → mais encontros com as paredes por intervalo de tempo → pressão maior.","textChars":84,"textLines":1,"bbox":[816,390,340,130]}
+{"kind":"shape","id":"sh/m1cnetkj","slide":10,"name":"inverse-callout","bbox":[806,550,360,62]}
+{"kind":"textbox","id":"sh/s7yt4b21","slide":10,"name":"text-uaa07ie","text":"Dobrar V reduz P à metade.","textPreview":"Dobrar V reduz P à metade.","textChars":26,"textLines":1,"bbox":[826,566,320,36]}
+{"kind":"shape","id":"sh/d87uxg3m","slide":10,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"chart","id":"ch/ru1kzm18","slide":10,"name":"Chart","chartType":"line","title":"Pressão × volume","bbox":[62,180,700,420]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":"Tempo: 3 min\n\nCondução: Faça os alunos dizerem em voz alta o padrão inverso. Diferencie reta decrescente de relação inversa: o gráfico P×V é uma curva. Relacione com o produto aproximadamente constante calculado no experimento.\n\n[Sources]\n- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx\n- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law"}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"Se V dobra, o que acontece com P?","textShapes":9}
+{"kind":"shape","id":"sh/epobatgr","slide":11,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/xcryxg7y","slide":11,"name":"slide-title","text":"Se V dobra, o que acontece com P?","textPreview":"Se V dobra, o que acontece com P?","textChars":33,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/wbih4b6d","slide":11,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/n69grmpw","slide":11,"name":"page-15","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/250zy18b","slide":11,"name":"text-2h7uqrl","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[84,192,72,46]}
+{"kind":"textbox","id":"sh/98rytw72","slide":11,"name":"text-jaqzqbn","text":"T e n permanecem constantes.","textPreview":"T e n permanecem constantes.","textChars":28,"textLines":1,"bbox":[182,190,980,78]}
+{"kind":"shape","id":"sh/o7ih0r6h","slide":11,"name":"rule","bbox":[182,290,980,1]}
+{"kind":"textbox","id":"sh/72t03qp0","slide":11,"name":"text-ip40j0r","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[84,324,72,46]}
+{"kind":"textbox","id":"sh/61kzalof","slide":11,"name":"text-2mfr9lt","text":"V: 4,0 L → 8,0 L; P inicial = 120 kPa.","textPreview":"V: 4,0 L → 8,0 L; P inicial = 120 kPa.","textChars":38,"textLines":1,"bbox":[182,322,980,78]}
+{"kind":"shape","id":"sh/ofqtgnyt","slide":11,"name":"rule","bbox":[182,422,980,1]}
+{"kind":"textbox","id":"sh/9gza9sze","slide":11,"name":"text-umy42l9","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[84,456,72,46]}
+{"kind":"textbox","id":"sh/mdobedg3","slide":11,"name":"text-nabcoc3","text":"A pressão final será 240, 120 ou 60 kPa?","textPreview":"A pressão final será 240, 120 ou 60 kPa?","textChars":40,"textLines":1,"bbox":[182,454,980,78]}
+{"kind":"shape","id":"sh/nehs7iho","slide":11,"name":"closing-box","bbox":[260,594,760,58]}
+{"kind":"textbox","id":"sh/0b6tc3yx","slide":11,"name":"text-5fnwh88","text":"Escolha → justifique → confira no simulador.","textPreview":"Escolha → justifique → confira no simulador.","textChars":44,"textLines":1,"bbox":[284,607,712,36]}
+{"kind":"shape","id":"sh/1cfa58zi","slide":11,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"notes","id":"nt/jetc3ut0","slide":11,"text":"Tempo: 2 min\n\nCondução: Faça a votação entre 240, 120 e 60 kPa. Resposta: 60 kPa. Com T e n constantes, pressão e volume são inversamente proporcionais; quando V dobra, P cai à metade. A conta pode ser apenas 120 ÷ 2.\n\n[Sources]\n- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law\n- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx"}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"Cada transformação fixa uma grandeza","textShapes":3}
+{"kind":"shape","id":"sh/b6d4f2lc","slide":12,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/1gbm9s3a","slide":12,"name":"slide-title","text":"Cada transformação fixa uma grandeza","textPreview":"Cada transformação fixa uma grandeza","textChars":36,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/0f2lgnmp","slide":12,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/ra943il8","slide":12,"name":"page-10","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/dcbm583y","slide":12,"name":"text-7qxhztu","text":"Regra de ouro: identifique primeiro o que permanece constante.","textPreview":"Regra de ouro: identifique primeiro o que permanece constante.","textChars":62,"textLines":1,"bbox":[170,606,940,38]}
+{"kind":"shape","id":"sh/sb2lcnmd","slide":12,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"table","id":"tb/ny1gzqtk","slide":12,"name":"","rows":4,"cols":5,"preview":"Transformação | Constante | Controle livre | Gráfico no Celestial | Relação","bbox":[56,188,1168,386]}
+{"kind":"notes","id":"nt/8f2psfyx","slide":12,"text":"Tempo: 6 min\n\nCondução: Leia a tabela por linhas. Peça um exemplo oral para cada transformação. Mostre que as três leis são recortes da mesma equação PV=nRT, sempre para quantidade de gás constante.\n\n[Sources]\n- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law\n- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx"}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"Três previsões; três testes no Celestial Lab","textShapes":9}
+{"kind":"shape","id":"sh/cnqh8fux","slide":13,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/q50nydsj","slide":13,"name":"slide-title","text":"Três previsões; três testes no Celestial Lab","textPreview":"Três previsões; três testes no Celestial Lab","textChars":44,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/bq9orito","slide":13,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/o3i5w3ad","slide":13,"name":"page-11","text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/p4r6p8by","slide":13,"name":"text-kvsdpsd","text":"Isotérmica","textPreview":"Isotérmica","textChars":10,"textLines":1,"bbox":[58,180,342,34]}
+{"kind":"shape","id":"sh/21gnuts7","slide":13,"name":"image-backing","bbox":[55,223,348,231]}
+{"kind":"textbox","id":"sh/gzy5s3a1","slide":13,"name":"text-yeilbsy","text":"Se V aumenta, P sobe,\ndesce ou fica igual?","textPreview":"Se V aumenta, P sobe, | desce ou fica igual?","textChars":42,"textLines":2,"bbox":[66,478,326,90]}
+{"kind":"textbox","id":"sh/1076lobm","slide":13,"name":"text-1eanlnu","text":"Isobárica","textPreview":"Isobárica","textChars":9,"textLines":1,"bbox":[446,180,342,34]}
+{"kind":"shape","id":"sh/hcfy9k3u","slide":13,"name":"image-backing","bbox":[443,223,348,231]}
+{"kind":"textbox","id":"sh/vaxg7ulo","slide":13,"name":"text-89glrhe","text":"Se T aumenta, V sobe,\ndesce ou fica igual?","textPreview":"Se T aumenta, V sobe, | desce ou fica igual?","textChars":42,"textLines":2,"bbox":[454,478,326,90]}
+{"kind":"textbox","id":"sh/u9ofyp43","slide":13,"name":"text-mn0pupv","text":"Isocórica","textPreview":"Isocórica","textChars":9,"textLines":1,"bbox":[834,180,342,34]}
+{"kind":"shape","id":"sh/t8fy5k3i","slide":13,"name":"image-backing","bbox":[831,223,348,231]}
+{"kind":"textbox","id":"sh/7mdg3als","slide":13,"name":"text-uiax9ui","text":"Se T aumenta, P sobe,\ndesce ou fica igual?","textPreview":"Se T aumenta, P sobe, | desce ou fica igual?","textChars":42,"textLines":2,"bbox":[842,478,326,90]}
+{"kind":"shape","id":"sh/6l4fu547","slide":13,"name":"rule","bbox":[190,594,900,1]}
+{"kind":"textbox","id":"sh/lkvy103m","slide":13,"name":"text-u1xrmv7","text":"A turma vota. O professor move o controle. O gráfico confirma.","textPreview":"A turma vota. O professor move o controle. O gráfico confirma.","textChars":62,"textLines":1,"bbox":[184,614,912,36]}
+{"kind":"shape","id":"sh/kjmxsfm1","slide":13,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"image","id":"im/294fqhsb","slide":13,"name":"","geometry":"roundRect","bbox":[58,226,342,225]}
+{"kind":"image","id":"im/pcvy1cr2","slide":13,"name":"","geometry":"roundRect","bbox":[446,226,342,225]}
+{"kind":"image","id":"im/obmxs7ah","slide":13,"name":"","geometry":"roundRect","bbox":[834,226,342,225]}
+{"kind":"notes","id":"nt/hgzapcr6","slide":13,"text":"Tempo: 8 min\n\nCondução: Faça três rodadas coletivas na aba Transformações. Em cada uma, a turma vota antes de você mover o controle. Gabarito: isotérmica — V aumenta, P diminui; isobárica — T aumenta, V aumenta; isocórica — T aumenta, P aumenta. Use os gráficos prontos apenas para confirmar as previsões.\n\n[Sources]\n- C:/Users/User/Desktop/celestial-labv1/deck_assets/gases-transformacao-isotermica.png\n- C:/Users/User/Desktop/celestial-labv1/deck_assets/gases-transformacao-isobarica.png\n- C:/Users/User/Desktop/celestial-labv1/deck_assets/gases-transformacao-isocorica.png\n- C:/Users/User/Desktop/celestial-labv1/simulations/IdealGasSim.tsx"}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"Termodinâmica","textShapes":4}
+{"kind":"shape","id":"sh/ehwvat8n","slide":14,"name":"cover-eyebrow","bbox":[56,50,560,28]}
+{"kind":"textbox","id":"sh/xc7eds76","slide":14,"name":"cover-title","text":"Termodinâmica","textPreview":"Termodinâmica","textChars":13,"textLines":1,"bbox":[56,145,545,190]}
+{"kind":"textbox","id":"sh/wbydknq1","slide":14,"name":"cover-subtitle","text":"Calor, energia interna e trabalho","textPreview":"Calor, energia interna e trabalho","textChars":33,"textLines":1,"bbox":[56,370,520,82]}
+{"kind":"shape","id":"sh/jepwf2pc","slide":14,"name":"rule","bbox":[56,510,150,8]}
+{"kind":"textbox","id":"sh/idgvmx8r","slide":14,"name":"cover-kicker","text":"Agora seguimos o caminho da energia.","textPreview":"Agora seguimos o caminho da energia.","textChars":36,"textLines":1,"bbox":[56,548,470,34]}
+{"kind":"shape","id":"sh/5grehs7i","slide":14,"name":"image-backing","bbox":[647,39,580,612]}
+{"kind":"textbox","id":"sh/zi5c3y98","slide":14,"name":"text-utgdpr5","text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1180,670,44,20]}
+{"kind":"image","id":"im/fu1cza1s","slide":14,"name":"","geometry":"roundRect","alt":"Gás confinado sob um pistão: o sistema da animação 1","bbox":[650,42,574,606]}
+{"kind":"notes","id":"nt/6lsnupw7","slide":14,"text":"Tempo: 2 min\n\nCondução: Faça uma pausa clara entre as duas partes da aula. Mostre apenas o sistema da animação 1 antes de apresentar qualquer equação. Pergunte: qual parte vamos chamar de sistema? Delimite o gás dentro do pistão; tudo que está fora é a vizinhança.\n\n[Sources]\n- C:/Users/User/Desktop/Celestial Equations - Códigos/primeira_lei_termodinamica_16x9.py\n- C:/Users/User/Desktop/celestial-labv1/Animacao_1_Primeira_Lei_Termodinamica.mp4\n- https://pt.khanacademy.org/science/physics/thermodynamics/laws-of-thermodynamics/a/what-is-the-first-law-of-thermodynamics"}
+{"kind":"slide","id":"sl/vaxsvy10","slide":15,"title":"O gás dentro do pistão é o sistema","textShapes":12}
+{"kind":"shape","id":"sh/0z29cbyh","slide":15,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/547mhg3m","slide":15,"name":"slide-title","text":"O gás dentro do pistão é o sistema","textPreview":"O gás dentro do pistão é o sistema","textChars":34,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/k3y5ov21","slide":15,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/76p4jqls","slide":15,"name":"page-12","text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/65gnqlk7","slide":15,"name":"text-w7w423h","text":"CALOR (Q)","textPreview":"CALOR (Q)","textChars":9,"textLines":1,"bbox":[74,268,240,42]}
+{"kind":"textbox","id":"sh/t87ml0ji","slide":15,"name":"text-9pvnr3q","text":"energia que entra ou sai\ndo sistema","textPreview":"energia que entra ou sai | do sistema","textChars":35,"textLines":2,"bbox":[74,318,240,80]}
+{"kind":"textbox","id":"sh/s7y5sv2x","slide":15,"name":"text-kavayxw","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[308,290,100,80]}
+{"kind":"textbox","id":"sh/na5476l8","slide":15,"name":"text-hrk1zq6","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[872,290,100,80]}
+{"kind":"shape","id":"sh/m9c3e1kn","slide":15,"name":"system-box","bbox":[408,218,464,270]}
+{"kind":"textbox","id":"sh/wrm9kvep","slide":15,"name":"text-hnh3luu","text":"GÁS","textPreview":"GÁS","textChars":3,"textLines":1,"bbox":[468,258,344,64]}
+{"kind":"textbox","id":"sh/hsvat0fa","slide":15,"name":"text-r3xpi84","text":"sistema","textPreview":"sistema","textChars":7,"textLines":1,"bbox":[468,330,344,38]}
+{"kind":"textbox","id":"sh/upkrilwj","slide":15,"name":"text-s381127","text":"mudança: ΔU","textPreview":"mudança: ΔU","textChars":11,"textLines":1,"bbox":[468,398,344,42]}
+{"kind":"textbox","id":"sh/vqdsrqx4","slide":15,"name":"text-2wq5hwa","text":"TRABALHO W","textPreview":"TRABALHO W","textChars":10,"textLines":1,"bbox":[966,268,240,42]}
+{"kind":"textbox","id":"sh/4vm9ovel","slide":15,"name":"text-br3a57l","text":"energia transferida pelo\nmovimento do pistão","textPreview":"energia transferida pelo | movimento do pistão","textChars":44,"textLines":2,"bbox":[966,318,240,80]}
+{"kind":"shape","id":"sh/5wvax0f6","slide":15,"name":"rule","bbox":[166,538,948,1]}
+{"kind":"textbox","id":"sh/it4rm5wv","slide":15,"name":"text-lhibmuz","text":"Q e W transferem energia; ΔU mede a mudança da energia interna.","textPreview":"Q e W transferem energia; ΔU mede a mudança da energia interna.","textChars":63,"textLines":1,"bbox":[164,574,952,50]}
+{"kind":"shape","id":"sh/judsvqxg","slide":15,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"notes","id":"nt/vaxsvy10","slide":15,"text":"Tempo: 4 min\n\nCondução: Use o desenho para nomear somente três grandezas. Q é a energia transferida por calor; W é a energia transferida por trabalho; ΔU é a mudança da energia interna do gás. Evite falar de transformações gasosas nesta parte.\n\n[Sources]\n- https://pt.khanacademy.org/science/physics/thermodynamics/laws-of-thermodynamics/a/what-is-the-first-law-of-thermodynamics"}
+{"kind":"slide","id":"sl/gny5sjyp","slide":16,"title":"A 1ª Lei acompanha Q, ΔU e W","textShapes":12}
+{"kind":"shape","id":"sh/bulg7u5g","slide":16,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/8z2h8bq1","slide":16,"name":"slide-title","text":"A 1ª Lei acompanha Q, ΔU e W","textPreview":"A 1ª Lei acompanha Q, ΔU e W","textChars":28,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/9kby1g7m","slide":16,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/ytkf2h8j","slide":16,"name":"page-13","text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/zutgvm94","slide":16,"name":"first-law","text":"Q = ΔU + W","textPreview":"Q = ΔU + W","textChars":10,"textLines":1,"bbox":[80,222,560,112]}
+{"kind":"textbox","id":"sh/kv2h4rqp","slide":16,"name":"text-r4fsmis","text":"calor = mudança interna + trabalho","textPreview":"calor = mudança interna + trabalho","textChars":34,"textLines":1,"bbox":[138,350,444,38]}
+{"kind":"shape","id":"sh/lwbyxwra","slide":16,"name":"rule","bbox":[690,210,1,380]}
+{"kind":"textbox","id":"sh/ip4zel83","slide":16,"name":"text-hqbobar","text":"Q > 0","textPreview":"Q > 0","textChars":5,"textLines":1,"bbox":[744,214,176,54]}
+{"kind":"textbox","id":"sh/3qdg7qpo","slide":16,"name":"text-ua6emk4","text":"calor entra no sistema","textPreview":"calor entra no sistema","textChars":22,"textLines":1,"bbox":[934,216,260,70]}
+{"kind":"textbox","id":"sh/fm1gzq5o","slide":16,"name":"text-nqrtg31","text":"W > 0","textPreview":"W > 0","textChars":5,"textLines":1,"bbox":[744,332,176,54]}
+{"kind":"textbox","id":"sh/e1sf65o3","slide":16,"name":"text-zpbfhj3","text":"o gás realiza trabalho","textPreview":"o gás realiza trabalho","textChars":22,"textLines":1,"bbox":[934,334,260,70]}
+{"kind":"textbox","id":"sh/1ojy10ne","slide":16,"name":"text-ogiuhaw","text":"ΔU > 0","textPreview":"ΔU > 0","textChars":6,"textLines":1,"bbox":[744,450,176,54]}
+{"kind":"textbox","id":"sh/gnax8v6t","slide":16,"name":"text-jba0h6z","text":"a energia interna aumenta","textPreview":"a energia interna aumenta","textChars":25,"textLines":1,"bbox":[934,452,260,70]}
+{"kind":"shape","id":"sh/nqlg3a5k","slide":16,"name":"energy-balance","bbox":[104,460,520,110]}
+{"kind":"textbox","id":"sh/2pcfa5oz","slide":16,"name":"text-3n7bmqn","text":"A energia se conserva: os sinais mostram para onde ela foi.","textPreview":"A energia se conserva: os sinais mostram para onde ela foi.","textChars":59,"textLines":1,"bbox":[136,488,456,64]}
+{"kind":"textbox","id":"sh/ps3y5knq","slide":16,"name":"text-5g2b4um","text":"Aqui, W é o trabalho realizado pelo gás.","textPreview":"Aqui, W é o trabalho realizado pelo gás.","textChars":40,"textLines":1,"bbox":[744,578,450,38]}
+{"kind":"shape","id":"sh/oruhcf65","slide":16,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"notes","id":"nt/gny5sjyp","slide":16,"text":"Tempo: 4 min\n\nCondução: Leia Q = ΔU + W em voz alta. Nesta aula, W representa o trabalho realizado pelo gás. Assim, Q > 0 quando o calor entra; W > 0 quando o gás realiza trabalho; ΔU > 0 quando a energia interna aumenta. A Khan Academy também apresenta a convenção equivalente em que o trabalho sobre o sistema é positivo; não misture as duas durante a resolução.\n\n[Sources]\n- https://pt.khanacademy.org/science/physics/thermodynamics/laws-of-thermodynamics/a/what-is-the-first-law-of-thermodynamics"}
+{"kind":"slide","id":"sl/14bup87q","slide":17,"title":"Animação 1 — calor entra no sistema","textShapes":7}
+{"kind":"shape","id":"sh/honqdwnu","slide":17,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/1c7e50ni","slide":17,"name":"slide-title","text":"Animação 1 — calor entra no sistema","textPreview":"Animação 1 — calor entra no sistema","textChars":35,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/gbedwfmx","slide":17,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/rm5czq50","slide":17,"name":"page-03","text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"shape","id":"sh/6lwvql4v","slide":17,"name":"image-backing","bbox":[53,175,576,441]}
+{"kind":"textbox","id":"sh/snedsvml","slide":17,"name":"text-0h7s5jw","text":"Observe o sistema","textPreview":"Observe o sistema","textChars":17,"textLines":1,"bbox":[690,202,500,42]}
+{"kind":"textbox","id":"sh/jilcvq54","slide":17,"name":"text-7vayxig","text":"Q entra no gás e as partículas se agitam mais.","textPreview":"Q entra no gás e as partículas se agitam mais.","textChars":46,"textLines":1,"bbox":[690,254,490,64]}
+{"kind":"shape","id":"sh/ihcvml4j","slide":17,"name":"rule","bbox":[690,338,455,1]}
+{"kind":"textbox","id":"sh/4by9or6l","slide":17,"name":"text-dy89sif","text":"Pergunta durante a animação","textPreview":"Pergunta durante a animação","textChars":27,"textLines":1,"bbox":[690,368,490,72]}
+{"kind":"textbox","id":"sh/pc7qhwn6","slide":17,"name":"text-y09sok9","text":"O que muda no gás e no pistão?","textPreview":"O que muda no gás e no pistão?","textChars":30,"textLines":1,"bbox":[690,448,490,68]}
+{"kind":"shape","id":"sh/29grm1of","slide":17,"name":"rule","bbox":[690,538,455,1]}
+{"kind":"textbox","id":"sh/3ap8fm50","slide":17,"name":"text-ce347ry","text":"O calor recebido se distribui entre ΔU e W.","textPreview":"O calor recebido se distribui entre ΔU e W.","textChars":43,"textLines":1,"bbox":[690,566,490,76]}
+{"kind":"shape","id":"sh/gnepkr69","slide":17,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"image","id":"im/xovi90za","slide":17,"name":"","geometry":"roundRect","alt":"Quadro da animação 1 com calor, trabalho e variação da energia interna","bbox":[56,178,570,435]}
+{"kind":"notes","id":"nt/14bup87q","slide":17,"text":"Tempo: 4 min\n\nCondução: Reproduza Animacao_1_Primeira_Lei_Termodinamica.mp4. Antes da equação aparecer, peça que a turma descreva o que observa: calor entrando, partículas mais agitadas e pistão subindo. No quadro final, conecte a cena a Q = ΔU + W.\n\n[Sources]\n- C:/Users/User/Desktop/celestial-labv1/Animacao_1_Primeira_Lei_Termodinamica.mp4\n- C:/Users/User/Desktop/Celestial Equations - Códigos/primeira_lei_termodinamica_16x9.py\n- https://pt.khanacademy.org/science/physics/thermodynamics/laws-of-thermodynamics/a/what-is-the-first-law-of-thermodynamics"}
+{"kind":"slide","id":"sl/y5wne50z","slide":18,"title":"Conta rápida — para onde foram 100 J?","textShapes":9}
+{"kind":"shape","id":"sh/to72pw76","slide":18,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/wrelszu9","slide":18,"name":"slide-title","text":"Conta rápida — para onde foram 100 J?","textPreview":"Conta rápida — para onde foram 100 J?","textChars":37,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/hsn2l4bu","slide":18,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/itw3upcf","slide":18,"name":"page-15","text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/je5knut0","slide":18,"name":"text-2h7uqrl","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[84,192,72,46]}
+{"kind":"textbox","id":"sh/4felwzu5","slide":18,"name":"text-jaqzqbn","text":"O gás recebe Q = 100 J.","textPreview":"O gás recebe Q = 100 J.","textChars":23,"textLines":1,"bbox":[182,190,980,78]}
+{"kind":"shape","id":"sh/5gnmp4bq","slide":18,"name":"rule","bbox":[182,290,980,1]}
+{"kind":"textbox","id":"sh/6hw3y9sb","slide":18,"name":"text-ip40j0r","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[84,324,72,46]}
+{"kind":"textbox","id":"sh/rip4retw","slide":18,"name":"text-2mfr9lt","text":"O gás realiza W = 40 J.","textPreview":"O gás realiza W = 40 J.","textChars":23,"textLines":1,"bbox":[182,322,980,78]}
+{"kind":"shape","id":"sh/fapkr6pw","slide":18,"name":"rule","bbox":[182,422,980,1]}
+{"kind":"textbox","id":"sh/upg3i18r","slide":18,"name":"text-umy42l9","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[84,456,72,46]}
+{"kind":"textbox","id":"sh/1cr2tg72","slide":18,"name":"text-nabcoc3","text":"Em Q = ΔU + W, qual é o valor de ΔU?","textPreview":"Em Q = ΔU + W, qual é o valor de ΔU?","textChars":36,"textLines":1,"bbox":[182,454,980,78]}
+{"kind":"shape","id":"sh/gbylkbqh","slide":18,"name":"closing-box","bbox":[260,594,760,58]}
+{"kind":"textbox","id":"sh/7mpknmp0","slide":18,"name":"text-5fnwh88","text":"20 segundos em dupla → depois, explique.","textPreview":"20 segundos em dupla → depois, explique.","textChars":40,"textLines":1,"bbox":[284,607,712,36]}
+{"kind":"shape","id":"sh/6lg3e18f","slide":18,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"notes","id":"nt/y5wne50z","slide":18,"text":"Tempo: 2 min\n\nCondução: Dê cerca de 20 segundos para a tentativa. Identifique Q = 100 J e W = 40 J. Em Q = ΔU + W, ΔU = 100 − 40 = 60 J. A conta tem uma única etapa: 40 J aparecem como trabalho e 60 J aumentam a energia interna.\n\n[Sources]\n- https://pt.khanacademy.org/science/physics/thermodynamics/laws-of-thermodynamics/a/what-is-the-first-law-of-thermodynamics"}
+{"kind":"slide","id":"sl/nid43ytk","slide":19,"title":"Animação 2 — compressão e sinais","textShapes":7}
+{"kind":"shape","id":"sh/1gridcr2","slide":19,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/9gb6xgbi","slide":19,"name":"slide-title","text":"Animação 2 — compressão e sinais","textPreview":"Animação 2 — compressão e sinais","textChars":32,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/8v2pobax","slide":19,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/vitozqt8","slide":19,"name":"page-03","text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"shape","id":"sh/ahk7qls3","slide":19,"name":"image-backing","bbox":[53,175,576,441]}
+{"kind":"textbox","id":"sh/wj2psvat","slide":19,"name":"text-0h7s5jw","text":"Observe a compressão","textPreview":"Observe a compressão","textChars":20,"textLines":1,"bbox":[690,202,500,42]}
+{"kind":"textbox","id":"sh/jmd83atk","slide":19,"name":"text-7vayxig","text":"Quem realiza trabalho sobre quem?","textPreview":"Quem realiza trabalho sobre quem?","textChars":33,"textLines":1,"bbox":[690,254,490,64]}
+{"kind":"shape","id":"sh/il47u5sz","slide":19,"name":"rule","bbox":[690,338,455,1]}
+{"kind":"textbox","id":"sh/cri1gnql","slide":19,"name":"text-dy89sif","text":"Convenção desta aula","textPreview":"Convenção desta aula","textChars":20,"textLines":1,"bbox":[690,368,490,72]}
+{"kind":"textbox","id":"sh/dsri9sr6","slide":19,"name":"text-y09sok9","text":"W < 0: trabalho realizado sobre o gás.","textPreview":"W < 0: trabalho realizado sobre o gás.","textChars":38,"textLines":1,"bbox":[690,448,490,68]}
+{"kind":"shape","id":"sh/qpgjex8f","slide":19,"name":"rule","bbox":[690,538,455,1]}
+{"kind":"textbox","id":"sh/rqp07290","slide":19,"name":"text-ce347ry","text":"Com Q = 0: ΔU = −W > 0; a energia interna aumenta.","textPreview":"Com Q = 0: ΔU = −W > 0; a energia interna aumenta.","textChars":50,"textLines":1,"bbox":[690,566,490,76]}
+{"kind":"shape","id":"sh/0vi1k7qx","slide":19,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"image","id":"im/pkzm18ja","slide":19,"name":"","geometry":"roundRect","alt":"Quadro da animação 2 com o pistão comprimindo o gás e W negativo","bbox":[56,178,570,435]}
+{"kind":"notes","id":"nt/nid43ytk","slide":19,"text":"Tempo: 4 min\n\nCondução: Reproduza Animacao_2_Compressao_Convencao_Sinais.mp4. Pare depois que W < 0 aparecer e pergunte quem realiza trabalho sobre quem. No exemplo isolado, Q = 0. Como Q = ΔU + W, temos ΔU = −W > 0: o trabalho feito sobre o gás aumenta sua energia interna. Não introduza PΔV nem nomes de transformações.\n\n[Sources]\n- C:/Users/User/Desktop/celestial-labv1/Animacao_2_Compressao_Convencao_Sinais.mp4\n- C:/Users/User/Desktop/celestial-labv1/.deck_build/thermo_v2/animacao2_compressao_sinais.py\n- https://pt.khanacademy.org/science/physics/thermodynamics/laws-of-thermodynamics/a/what-is-the-first-law-of-thermodynamics"}
+{"kind":"slide","id":"sl/zyxsni5k","slide":20,"title":"Saída — três respostas curtas","textShapes":9}
+{"kind":"shape","id":"sh/3ud4juhg","slide":20,"name":"eyebrow","bbox":[56,34,650,24]}
+{"kind":"textbox","id":"sh/qpwjmh8n","slide":20,"name":"slide-title","text":"Saída — três respostas curtas","textPreview":"Saída — três respostas curtas","textChars":29,"textLines":1,"bbox":[56,72,1130,64]}
+{"kind":"shape","id":"sh/rq50vmp8","slide":20,"name":"rule","bbox":[56,142,1168,1]}
+{"kind":"textbox","id":"sh/4nu1krqh","slide":20,"name":"page-15","text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1174,656,50,32]}
+{"kind":"textbox","id":"sh/po3itc72","slide":20,"name":"text-2h7uqrl","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[84,192,72,46]}
+{"kind":"textbox","id":"sh/2lczih8r","slide":20,"name":"text-jaqzqbn","text":"Com V fixo, se T aumenta, P sobe ou desce?","textPreview":"Com V fixo, se T aumenta, P sobe ou desce?","textChars":42,"textLines":1,"bbox":[182,190,980,78]}
+{"kind":"shape","id":"sh/3ml0rmpw","slide":20,"name":"rule","bbox":[182,290,980,1]}
+{"kind":"textbox","id":"sh/gjuhg7ql","slide":20,"name":"text-ip40j0r","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[84,324,72,46]}
+{"kind":"textbox","id":"sh/hk3ipcr6","slide":20,"name":"text-2mfr9lt","text":"Em Q = ΔU + W, o que Q, ΔU e W representam?","textPreview":"Em Q = ΔU + W, o que Q, ΔU e W representam?","textChars":43,"textLines":1,"bbox":[182,322,980,78]}
+{"kind":"shape","id":"sh/dkfmp4zy","slide":20,"name":"rule","bbox":[182,422,980,1]}
+{"kind":"textbox","id":"sh/cj65wzyd","slide":20,"name":"text-umy42l9","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[84,456,72,46]}
+{"kind":"textbox","id":"sh/rid4nuhs","slide":20,"name":"text-nabcoc3","text":"Se Q = 0 e W = −40 J, qual é ΔU?","textPreview":"Se Q = 0 e W = −40 J, qual é ΔU?","textChars":32,"textLines":1,"bbox":[182,454,980,78]}
+{"kind":"shape","id":"sh/qh4nupg7","slide":20,"name":"closing-box","bbox":[260,594,760,58]}
+{"kind":"textbox","id":"sh/pwvmlkzm","slide":20,"name":"text-5fnwh88","text":"Poucas palavras e uma conta.","textPreview":"Poucas palavras e uma conta.","textChars":28,"textLines":1,"bbox":[284,607,712,36]}
+{"kind":"shape","id":"sh/4vm5sfy1","slide":20,"name":"source-footer","bbox":[56,667,500,20]}
+{"kind":"notes","id":"nt/zyxsni5k","slide":20,"text":"Tempo: 2 min\n\nCondução: Colete respostas individuais. Gabarito: (1) P sobe; (2) Q é calor transferido, ΔU é a mudança da energia interna e W é o trabalho realizado pelo gás; (3) 0 = ΔU − 40, portanto ΔU = 40 J.\n\n[Sources]\n- https://openstax.org/books/chemistry/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law\n- https://pt.khanacademy.org/science/physics/thermodynamics/laws-of-thermodynamics/a/what-is-the-first-law-of-thermodynamics"}
