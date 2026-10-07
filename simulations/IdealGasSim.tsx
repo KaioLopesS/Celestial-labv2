@@ -1094,7 +1094,7 @@ export const IdealGasSim: React.FC = () => {
                 <div className="h-full rounded-full transition-all duration-300"
                   style={{
                     width: `${pressureNorm * 100}%`,
-                    background: 'linear-gradient(90deg, rgb(30,180,255), rgb(255,200,50), rgb(255,60,60))',
+                    backgroundColor: '#00f0ff',
                   }}
                 />
               </div>
@@ -1179,7 +1179,7 @@ export const IdealGasSim: React.FC = () => {
                 <div className="h-full rounded-full transition-all duration-300"
                   style={{
                     width: `${pressureNorm * 100}%`,
-                    background: 'linear-gradient(90deg, rgb(30,180,255), rgb(255,200,50), rgb(255,60,60))',
+                    backgroundColor: '#00f0ff',
                   }}
                 />
               </div>
