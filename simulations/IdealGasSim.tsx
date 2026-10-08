@@ -18,6 +18,8 @@ const R_CONSTANT = 8.314; // J/(mol·K)
 // Converte volume interno (20-100) para litros (2-20)
 const volumeToLiters = (v: number): number => 2 + (v - 20) * (18 / 80);
 const litersToInternal = (L: number): number => 20 + (L - 2) * (80 / 18);
+// Arredonda para 0,1 L (mesma precisão exibida na interface)
+const roundLiters = (L: number): number => Math.round(L * 10) / 10;
 
 export const IdealGasSim: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -27,13 +29,12 @@ export const IdealGasSim: React.FC = () => {
   const animFrameRef = useRef<number>(0);
 
   const [temperature, setTemperature] = useState(300);
-  const [volume, setVolume] = useState(50);
+  const [volume, setVolume] = useState(litersToInternal(9));
   const [numParticles, setNumParticles] = useState(20);
   const [isRunning, setIsRunning] = useState(true);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [showFsControls, setShowFsControls] = useState(true);
   const [showLabels, setShowLabels] = useState(true);
-  const [pressure, setPressure] = useState(0);
 
   // Abas
   const [activeTab, setActiveTab] = useState<TabType>('lab');
@@ -151,8 +152,6 @@ export const IdealGasSim: React.FC = () => {
     window.addEventListener('resize', resize);
     resize();
 
-    let lastPressureTime = performance.now();
-
     const draw = () => {
       const w = canvas.clientWidth;
       const h = canvas.clientHeight;
@@ -196,12 +195,6 @@ export const IdealGasSim: React.FC = () => {
       const P = (isIsobaric && transRefState.current.P > 0)
         ? transRefState.current.P
         : (n * R_CONSTANT * temperature) / (volumeToLiters(volume) / 1000);
-
-      const now = performance.now();
-      if (now - lastPressureTime > 200) {
-        setPressure(P);
-        lastPressureTime = now;
-      }
 
       const pressureNorm = Math.min(P / 500000, 1);
       const wallR = Math.floor(30 + pressureNorm * 225);
@@ -372,7 +365,7 @@ export const IdealGasSim: React.FC = () => {
       const { x, w } = getCanvasPos(e);
       const pct = ((x - CONTAINER_LEFT) / (w - CONTAINER_LEFT - 40)) * 100;
       const clampedPct = Math.max(20, Math.min(100, pct));
-      setVolume(Math.round(clampedPct));
+      setVolume(litersToInternal(roundLiters(volumeToLiters(clampedPct))));
     };
 
     const handleUp = () => { isDraggingPistonRef.current = false; };
@@ -398,13 +391,19 @@ export const IdealGasSim: React.FC = () => {
 
   const handleReset = () => {
     setTemperature(300);
-    setVolume(50);
+    setVolume(litersToInternal(9));
     setNumParticles(20);
     setIsRunning(true);
     const canvas = canvasRef.current;
     if (canvas) particlesRef.current = initParticles(20, canvas.clientWidth, canvas.clientHeight);
   };
 
+  // Pressão calculada diretamente do estado: P = nRT / V (SI)
+  const nMol = numParticles / 100;
+  const isIsobaricMode = activeTab === 'transformations' && transType === 'isobaric' && transRefState.current.P > 0;
+  const pressure = isIsobaricMode
+    ? transRefState.current.P
+    : (nMol * R_CONSTANT * temperature) / (volumeLiters / 1000);
   const pressureKPa = pressure / 1000;
   const pressureNorm = Math.min(pressure / 500000, 1);
 
@@ -471,12 +470,12 @@ export const IdealGasSim: React.FC = () => {
         setTemperature(100);
       }
 
-      const n = numParticles / 100;
+      // Usa o valor fixo (20) — numParticles ainda contém o valor antigo neste render
+      const n = 20 / 100;
       const V_L = volumeToLiters(initV);
       const V_m3 = V_L / 1000;
       const P = (n * R_CONSTANT * initT) / V_m3;
       transRefState.current = { P, V: V_L, T: initT };
-      setPressure(P);
       setGraphPath([]); // Zerado inicialmente
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -824,7 +823,6 @@ export const IdealGasSim: React.FC = () => {
     const V_m3 = V_L / 1000;
     const P = (n * R_CONSTANT * initT) / V_m3;
     transRefState.current = { P, V: V_L, T: initT };
-    setPressure(P);
     setGraphPath([]); // Zerado no reset
   };
 
@@ -962,10 +960,11 @@ export const IdealGasSim: React.FC = () => {
                     </span>
                     <span className="text-white font-mono">{volumeLiters.toFixed(1)} L</span>
                   </div>
-                  <input type="range" min="20" max="100" step="1" value={volume}
+                  <input type="range" min="2" max="20" step="0.1" value={roundLiters(volumeLiters)}
                     onChange={(e) => {
-                      if (activeTab === 'transformations') handleTransVolChange(parseInt(e.target.value));
-                      else setVolume(parseInt(e.target.value));
+                      const v = litersToInternal(parseFloat(e.target.value));
+                      if (activeTab === 'transformations') handleTransVolChange(v);
+                      else setVolume(v);
                     }}
                     disabled={activeTab === 'transformations' && !isVolFree}
                     className="w-full accent-blue-400 h-1 bg-gray-600 rounded-lg appearance-none cursor-pointer disabled:cursor-not-allowed"
@@ -1059,8 +1058,8 @@ export const IdealGasSim: React.FC = () => {
                   <label>{t('gas.volume')} (L)</label>
                   <span className="text-white font-mono">{volumeLiters.toFixed(1)} L</span>
                 </div>
-                <input type="range" min="20" max="100" step="1" value={volume}
-                  onChange={(e) => setVolume(parseInt(e.target.value))}
+                <input type="range" min="2" max="20" step="0.1" value={roundLiters(volumeLiters)}
+                  onChange={(e) => setVolume(litersToInternal(parseFloat(e.target.value)))}
                   className="w-full accent-blue-400 h-1.5 bg-gray-700 rounded-lg appearance-none cursor-pointer"
                 />
                 <div className="flex justify-between text-[9px] text-gray-600"><span>2.0 L</span><span>20.0 L</span></div>
@@ -1070,7 +1069,7 @@ export const IdealGasSim: React.FC = () => {
               <div className="space-y-1">
                 <div className="flex justify-between text-xs font-bold text-gray-400 uppercase tracking-wider">
                   <label>{t('gas.particles')} (n)</label>
-                  <span className="text-white font-mono">{numParticles}</span>
+                  <span className="text-white font-mono">{numParticles} <span className="text-gray-500 normal-case">({nMol.toFixed(2)} mol)</span></span>
                 </div>
                 <input type="range" min="5" max="100" step="1" value={numParticles}
                   onChange={(e) => setNumParticles(parseInt(e.target.value))}
@@ -1157,8 +1156,8 @@ export const IdealGasSim: React.FC = () => {
                 </label>
                 <span className="text-white font-mono">{volumeLiters.toFixed(1)} L</span>
               </div>
-              <input type="range" min="20" max="100" step="1" value={volume}
-                onChange={(e) => handleTransVolChange(parseInt(e.target.value))}
+              <input type="range" min="2" max="20" step="0.1" value={roundLiters(volumeLiters)}
+                onChange={(e) => handleTransVolChange(litersToInternal(parseFloat(e.target.value)))}
                 disabled={!isVolFree}
                 className="w-full accent-blue-400 h-1.5 bg-gray-700 rounded-lg appearance-none cursor-pointer disabled:cursor-not-allowed"
               />
